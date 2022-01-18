@@ -1,0 +1,13 @@
+Marker	Cell Type
+CD14	Monocyte
+CD163	Monocyte
+CD244	Monocyte
+CD28	B cell
+CD38	B cell
+CD86	B cell
+CD19	B cell, NK cell
+CD2	NK cell
+CD3D	NK cell, T cell
+CD3E	NK cell, T cell
+CD3G	NK cell, T cell
+CD8A	T cell

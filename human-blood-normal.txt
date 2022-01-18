@@ -1,0 +1,1280 @@
+ID	Gene	Specificity	Cell type
+CCR6	CCR6	positive	Activated CD4+ T
+CD14	CD14	positive	Activated CD4+ T
+CD19	CD19	positive	Activated CD4+ T
+CD38	CD38	positive	Activated CD4+ T
+CD4	CD4	positive	Activated CD4+ T
+CD69	CD69	positive	Activated CD4+ T
+CXCR3	CXCR3	positive	Activated CD4+ T
+IL2RA	IL2RA	positive	Activated CD4+ T
+ITGB1	ITGB1	positive	Activated CD4+ T
+PTPRC	PTPRC	positive	Activated CD4+ T
+TFRC	TFRC	positive	Activated CD4+ T
+CD3D	CD3D	positive	Angiogenic T
+CD3E	CD3E	positive	Angiogenic T
+CD3G	CD3G	positive	Angiogenic T
+CXCR4	CXCR4	positive	Angiogenic T
+PECAM1	PECAM1	positive	Angiogenic T
+ACPP	ACPP	positive	AXL+SIGLEC6+ dendritic
+ADAM33	ADAM33	positive	AXL+SIGLEC6+ dendritic
+ALDH2	ALDH2	positive	AXL+SIGLEC6+ dendritic
+APEX1	APEX1	positive	AXL+SIGLEC6+ dendritic
+ARHGAP18	ARHGAP18	positive	AXL+SIGLEC6+ dendritic
+ATF5	ATF5	positive	AXL+SIGLEC6+ dendritic
+ATP2B4	ATP2B4	positive	AXL+SIGLEC6+ dendritic
+AXL	AXL	positive	AXL+SIGLEC6+ dendritic
+BAIAP2	BAIAP2	positive	AXL+SIGLEC6+ dendritic
+BHLHE40	BHLHE40	positive	AXL+SIGLEC6+ dendritic
+BIN1	BIN1	positive	AXL+SIGLEC6+ dendritic
+CCND3	CCND3	positive	AXL+SIGLEC6+ dendritic
+CD22	CD22	positive	AXL+SIGLEC6+ dendritic
+CD300LB	CD300LB	positive	AXL+SIGLEC6+ dendritic
+CD300LG	CD300LG	positive	AXL+SIGLEC6+ dendritic
+CD5	CD5	positive	AXL+SIGLEC6+ dendritic
+CD72	CD72	positive	AXL+SIGLEC6+ dendritic
+CDH1	CDH1	positive	AXL+SIGLEC6+ dendritic
+CDKN1A	CDKN1A	positive	AXL+SIGLEC6+ dendritic
+CEP95	CEP95	positive	AXL+SIGLEC6+ dendritic
+COQ7	COQ7	positive	AXL+SIGLEC6+ dendritic
+CTSW	CTSW	positive	AXL+SIGLEC6+ dendritic
+CX3CR1	CX3CR1	positive	AXL+SIGLEC6+ dendritic
+CXCR2	CXCR2	positive	AXL+SIGLEC6+ dendritic
+DAB2	DAB2	positive	AXL+SIGLEC6+ dendritic
+DPYSL2	DPYSL2	positive	AXL+SIGLEC6+ dendritic
+ENTPD7	ENTPD7	positive	AXL+SIGLEC6+ dendritic
+FAM129A	FAM129A	positive	AXL+SIGLEC6+ dendritic
+GNAQ	GNAQ	positive	AXL+SIGLEC6+ dendritic
+GPR146	GPR146	positive	AXL+SIGLEC6+ dendritic
+HIP1	HIP1	positive	AXL+SIGLEC6+ dendritic
+IRF4	IRF4	positive	AXL+SIGLEC6+ dendritic
+KLF12	KLF12	positive	AXL+SIGLEC6+ dendritic
+KLF4	KLF4	positive	AXL+SIGLEC6+ dendritic
+LAX1	LAX1	positive	AXL+SIGLEC6+ dendritic
+LGMN	LGMN	positive	AXL+SIGLEC6+ dendritic
+LTK	LTK	positive	AXL+SIGLEC6+ dendritic
+MECR	MECR	positive	AXL+SIGLEC6+ dendritic
+MED12L	MED12L	positive	AXL+SIGLEC6+ dendritic
+MGLL	MGLL	positive	AXL+SIGLEC6+ dendritic
+MRPS6	MRPS6	positive	AXL+SIGLEC6+ dendritic
+MYH11	MYH11	positive	AXL+SIGLEC6+ dendritic
+MYO1E	MYO1E	positive	AXL+SIGLEC6+ dendritic
+NA	NA	positive	AXL+SIGLEC6+ dendritic
+NDRG1	NDRG1	positive	AXL+SIGLEC6+ dendritic
+PIM2	PIM2	positive	AXL+SIGLEC6+ dendritic
+PLA2G16	PLA2G16	positive	AXL+SIGLEC6+ dendritic
+PLAC8	PLAC8	positive	AXL+SIGLEC6+ dendritic
+PPP1R14A	PPP1R14A	positive	AXL+SIGLEC6+ dendritic
+PTGDS	PTGDS	positive	AXL+SIGLEC6+ dendritic
+RAD1	RAD1	positive	AXL+SIGLEC6+ dendritic
+RBL1	RBL1	positive	AXL+SIGLEC6+ dendritic
+RNASEL	RNASEL	positive	AXL+SIGLEC6+ dendritic
+RNF141	RNF141	positive	AXL+SIGLEC6+ dendritic
+RUNX2	RUNX2	positive	AXL+SIGLEC6+ dendritic
+S100A10	S100A10	positive	AXL+SIGLEC6+ dendritic
+SCN9A	SCN9A	positive	AXL+SIGLEC6+ dendritic
+SIGLEC1	SIGLEC1	positive	AXL+SIGLEC6+ dendritic
+SIGLEC6	SIGLEC6	positive	AXL+SIGLEC6+ dendritic
+SLC20A1	SLC20A1	positive	AXL+SIGLEC6+ dendritic
+SLC35C2	SLC35C2	positive	AXL+SIGLEC6+ dendritic
+SLC41A2	SLC41A2	positive	AXL+SIGLEC6+ dendritic
+SLC4A3	SLC4A3	positive	AXL+SIGLEC6+ dendritic
+SNRNP25	SNRNP25	positive	AXL+SIGLEC6+ dendritic
+SOX4	SOX4	positive	AXL+SIGLEC6+ dendritic
+SP4	SP4	positive	AXL+SIGLEC6+ dendritic
+STX18	STX18	positive	AXL+SIGLEC6+ dendritic
+SUCLA2	SUCLA2	positive	AXL+SIGLEC6+ dendritic
+SUSD1	SUSD1	positive	AXL+SIGLEC6+ dendritic
+TBC1D9	TBC1D9	positive	AXL+SIGLEC6+ dendritic
+THBD	THBD	positive	AXL+SIGLEC6+ dendritic
+TNFSF12	TNFSF12	positive	AXL+SIGLEC6+ dendritic
+TNNI2	TNNI2	positive	AXL+SIGLEC6+ dendritic
+TSEN54	TSEN54	positive	AXL+SIGLEC6+ dendritic
+TXN	TXN	positive	AXL+SIGLEC6+ dendritic
+UPK3A	UPK3A	positive	AXL+SIGLEC6+ dendritic
+USF2	USF2	positive	AXL+SIGLEC6+ dendritic
+VASH1	VASH1	positive	AXL+SIGLEC6+ dendritic
+ZEB1	ZEB1	positive	AXL+SIGLEC6+ dendritic
+ZNF789	ZNF789	positive	AXL+SIGLEC6+ dendritic
+AICDA	AICDA	positive	B
+CD19	CD19	positive	B
+CD28	CD28	positive	B
+CD38	CD38	positive	B
+CD86	CD86	positive	B
+MME	MME	positive	B
+MS4A1	MS4A1	positive	B
+TFRC	TFRC	positive	B
+TNFSF13B	TNFSF13B	positive	B
+CCR3	CCR3	positive	Basophil
+CD19	CD19	positive	Basophil
+CD22	CD22	positive	Basophil
+CD63	CD63	positive	Basophil
+ENPP3	ENPP3	positive	Basophil
+HLA-DRfamily	HLA-DRfamily	positive	Basophil
+IL3RA	IL3RA	positive	Basophil
+ACSS2	ACSS2	positive	CD141+CLEC9A+ dendritic
+ACTN1	ACTN1	positive	CD141+CLEC9A+ dendritic
+ADAM28	ADAM28	positive	CD141+CLEC9A+ dendritic
+ANPEP	ANPEP	positive	CD141+CLEC9A+ dendritic
+APOL1	APOL1	positive	CD141+CLEC9A+ dendritic
+APOL3	APOL3	positive	CD141+CLEC9A+ dendritic
+ASAP1	ASAP1	positive	CD141+CLEC9A+ dendritic
+ASB2	ASB2	positive	CD141+CLEC9A+ dendritic
+B3GNT7	B3GNT7	positive	CD141+CLEC9A+ dendritic
+BATF3	BATF3	positive	CD141+CLEC9A+ dendritic
+BCL6	BCL6	positive	CD141+CLEC9A+ dendritic
+BTLA	BTLA	positive	CD141+CLEC9A+ dendritic
+CADM1	CADM1	positive	CD141+CLEC9A+ dendritic
+CAMK2D	CAMK2D	positive	CD141+CLEC9A+ dendritic
+CCND1	CCND1	positive	CD141+CLEC9A+ dendritic
+CD38	CD38	positive	CD141+CLEC9A+ dendritic
+CD40	CD40	positive	CD141+CLEC9A+ dendritic
+CD59	CD59	positive	CD141+CLEC9A+ dendritic
+CD93	CD93	positive	CD141+CLEC9A+ dendritic
+CLEC9A	CLEC9A	positive	CD141+CLEC9A+ dendritic
+CLNK	CLNK	positive	CD141+CLEC9A+ dendritic
+CPNE3	CPNE3	positive	CD141+CLEC9A+ dendritic
+CPVL	CPVL	positive	CD141+CLEC9A+ dendritic
+CSRP1	CSRP1	positive	CD141+CLEC9A+ dendritic
+CTTNBP2NL	CTTNBP2NL	positive	CD141+CLEC9A+ dendritic
+CYB5R3	CYB5R3	positive	CD141+CLEC9A+ dendritic
+CYP2E1	CYP2E1	positive	CD141+CLEC9A+ dendritic
+DENND1B	DENND1B	positive	CD141+CLEC9A+ dendritic
+DHRS3	DHRS3	positive	CD141+CLEC9A+ dendritic
+DNASE1L3	DNASE1L3	positive	CD141+CLEC9A+ dendritic
+DPP4	DPP4	positive	CD141+CLEC9A+ dendritic
+DSE	DSE	positive	CD141+CLEC9A+ dendritic
+DST	DST	positive	CD141+CLEC9A+ dendritic
+DUSP10	DUSP10	positive	CD141+CLEC9A+ dendritic
+DUSP2	DUSP2	positive	CD141+CLEC9A+ dendritic
+EHD4	EHD4	positive	CD141+CLEC9A+ dendritic
+ELOVL5	ELOVL5	positive	CD141+CLEC9A+ dendritic
+ENPP1	ENPP1	positive	CD141+CLEC9A+ dendritic
+FAM135A	FAM135A	positive	CD141+CLEC9A+ dendritic
+FAM160A2	FAM160A2	positive	CD141+CLEC9A+ dendritic
+FCRL6	FCRL6	positive	CD141+CLEC9A+ dendritic
+FLT3	FLT3	positive	CD141+CLEC9A+ dendritic
+FNBP1	FNBP1	positive	CD141+CLEC9A+ dendritic
+FUCA1	FUCA1	positive	CD141+CLEC9A+ dendritic
+GSTM4	GSTM4	positive	CD141+CLEC9A+ dendritic
+GYPC	GYPC	positive	CD141+CLEC9A+ dendritic
+HAVCR2	HAVCR2	positive	CD141+CLEC9A+ dendritic
+HLA-DOB	HLA-DOB	positive	CD141+CLEC9A+ dendritic
+HLA-DPA1	HLA-DPA1	positive	CD141+CLEC9A+ dendritic
+HLA-DPB1	HLA-DPB1	positive	CD141+CLEC9A+ dendritic
+HLA-DQB1	HLA-DQB1	positive	CD141+CLEC9A+ dendritic
+ID2	ID2	positive	CD141+CLEC9A+ dendritic
+IDO1	IDO1	positive	CD141+CLEC9A+ dendritic
+IDO2	IDO2	positive	CD141+CLEC9A+ dendritic
+INF2	INF2	positive	CD141+CLEC9A+ dendritic
+KCNK6	KCNK6	positive	CD141+CLEC9A+ dendritic
+KIF16B	KIF16B	positive	CD141+CLEC9A+ dendritic
+LACC1	LACC1	positive	CD141+CLEC9A+ dendritic
+LGALS2	LGALS2	positive	CD141+CLEC9A+ dendritic
+LIMA1	LIMA1	positive	CD141+CLEC9A+ dendritic
+LMNA	LMNA	positive	CD141+CLEC9A+ dendritic
+LRRC18	LRRC18	positive	CD141+CLEC9A+ dendritic
+NA	NA	positive	CD141+CLEC9A+ dendritic
+NAV1	NAV1	positive	CD141+CLEC9A+ dendritic
+NCALD	NCALD	positive	CD141+CLEC9A+ dendritic
+NDRG2	NDRG2	positive	CD141+CLEC9A+ dendritic
+NET1	NET1	positive	CD141+CLEC9A+ dendritic
+OSBPL3	OSBPL3	positive	CD141+CLEC9A+ dendritic
+PAFAH1B3	PAFAH1B3	positive	CD141+CLEC9A+ dendritic
+PALM2	PALM2	positive	CD141+CLEC9A+ dendritic
+PDE4DIP	PDE4DIP	positive	CD141+CLEC9A+ dendritic
+PDLIM1	PDLIM1	positive	CD141+CLEC9A+ dendritic
+PDLIM7	PDLIM7	positive	CD141+CLEC9A+ dendritic
+PIK3CB	PIK3CB	positive	CD141+CLEC9A+ dendritic
+PLCD1	PLCD1	positive	CD141+CLEC9A+ dendritic
+PPA1	PPA1	positive	CD141+CLEC9A+ dendritic
+PPM1H	PPM1H	positive	CD141+CLEC9A+ dendritic
+PPM1M	PPM1M	positive	CD141+CLEC9A+ dendritic
+PQLC2	PQLC2	positive	CD141+CLEC9A+ dendritic
+PRELID2	PRELID2	positive	CD141+CLEC9A+ dendritic
+PTK2	PTK2	positive	CD141+CLEC9A+ dendritic
+RAB11FIP4	RAB11FIP4	positive	CD141+CLEC9A+ dendritic
+RGS10	RGS10	positive	CD141+CLEC9A+ dendritic
+SCARF1	SCARF1	positive	CD141+CLEC9A+ dendritic
+SLAMF7	SLAMF7	positive	CD141+CLEC9A+ dendritic
+SLAMF8	SLAMF8	positive	CD141+CLEC9A+ dendritic
+SLC24A4	SLC24A4	positive	CD141+CLEC9A+ dendritic
+SLC9A9	SLC9A9	positive	CD141+CLEC9A+ dendritic
+SNX22	SNX22	positive	CD141+CLEC9A+ dendritic
+SNX3	SNX3	positive	CD141+CLEC9A+ dendritic
+STX3	STX3	positive	CD141+CLEC9A+ dendritic
+TGM2	TGM2	positive	CD141+CLEC9A+ dendritic
+THBD	THBD	positive	CD141+CLEC9A+ dendritic
+TLR10	TLR10	positive	CD141+CLEC9A+ dendritic
+TMEM14A	TMEM14A	positive	CD141+CLEC9A+ dendritic
+TRERF1	TRERF1	positive	CD141+CLEC9A+ dendritic
+VAC14	VAC14	positive	CD141+CLEC9A+ dendritic
+VAV3	VAV3	positive	CD141+CLEC9A+ dendritic
+WDFY4	WDFY4	positive	CD141+CLEC9A+ dendritic
+XCR1	XCR1	positive	CD141+CLEC9A+ dendritic
+ZNF366	ZNF366	positive	CD141+CLEC9A+ dendritic
+CD14	CD14	positive	CD14++CD16- monocyte
+FCGR3A	FCGR3A	positive	CD14++CD16- monocyte
+FCGR3B	FCGR3B	positive	CD14++CD16- monocyte
+CD14	CD14	positive	CD14+CD16+ monocyte
+FCGR3A	FCGR3A	positive	CD14+CD16+ monocyte
+FCGR3B	FCGR3B	positive	CD14+CD16+ monocyte
+CD14	CD14	positive	CD14+ endothelial progenitor
+KDR	KDR	positive	CD14+ endothelial progenitor
+ADAM8	ADAM8	positive	CD1C+_A dendritic
+AREG	AREG	positive	CD1C+_A dendritic
+CACNA2D3	CACNA2D3	positive	CD1C+_A dendritic
+CCR6	CCR6	positive	CD1C+_A dendritic
+CD1C	CD1C	positive	CD1C+_A dendritic
+CD1D	CD1D	positive	CD1C+_A dendritic
+CD1E	CD1E	positive	CD1C+_A dendritic
+CD2	CD2	positive	CD1C+_A dendritic
+CD33	CD33	positive	CD1C+_A dendritic
+CLEC10A	CLEC10A	positive	CD1C+_A dendritic
+CLEC17A	CLEC17A	positive	CD1C+_A dendritic
+CLEC4A	CLEC4A	positive	CD1C+_A dendritic
+CLIC2	CLIC2	positive	CD1C+_A dendritic
+CREB5	CREB5	positive	CD1C+_A dendritic
+ENTPD1	ENTPD1	positive	CD1C+_A dendritic
+ETS2	ETS2	positive	CD1C+_A dendritic
+FCER1A	FCER1A	positive	CD1C+_A dendritic
+FCGR2B	FCGR2B	positive	CD1C+_A dendritic
+ITGA5	ITGA5	positive	CD1C+_A dendritic
+LPCAT1	LPCAT1	positive	CD1C+_A dendritic
+MBOAT7	MBOAT7	positive	CD1C+_A dendritic
+NOD2	NOD2	positive	CD1C+_A dendritic
+NR4A2	NR4A2	positive	CD1C+_A dendritic
+PEA15	PEA15	positive	CD1C+_A dendritic
+PER1	PER1	positive	CD1C+_A dendritic
+PID1	PID1	positive	CD1C+_A dendritic
+PTAFR	PTAFR	positive	CD1C+_A dendritic
+PTGS1	PTGS1	positive	CD1C+_A dendritic
+SLC2A3	SLC2A3	positive	CD1C+_A dendritic
+SMN1	SMN1	positive	CD1C+_A dendritic
+TMEM273	TMEM273	positive	CD1C+_A dendritic
+ADAM15	ADAM15	positive	CD1C+_B dendritic
+ANXA1	ANXA1	positive	CD1C+_B dendritic
+AOAH	AOAH	positive	CD1C+_B dendritic
+ASGR1	ASGR1	positive	CD1C+_B dendritic
+BST1	BST1	positive	CD1C+_B dendritic
+CD14	CD14	positive	CD1C+_B dendritic
+CD163	CD163	positive	CD1C+_B dendritic
+CD1D	CD1D	positive	CD1C+_B dendritic
+CD36	CD36	positive	CD1C+_B dendritic
+CES1	CES1	positive	CD1C+_B dendritic
+CLEC10A	CLEC10A	positive	CD1C+_B dendritic
+CREB5	CREB5	positive	CD1C+_B dendritic
+CSF3R	CSF3R	positive	CD1C+_B dendritic
+CSTA	CSTA	positive	CD1C+_B dendritic
+EREG	EREG	positive	CD1C+_B dendritic
+F13A1	F13A1	positive	CD1C+_B dendritic
+FCER1A	FCER1A	positive	CD1C+_B dendritic
+FCN1	FCN1	positive	CD1C+_B dendritic
+FPR1	FPR1	positive	CD1C+_B dendritic
+HBEGF	HBEGF	positive	CD1C+_B dendritic
+HNMT	HNMT	positive	CD1C+_B dendritic
+IL13RA1	IL13RA1	positive	CD1C+_B dendritic
+IL1B	IL1B	positive	CD1C+_B dendritic
+IL1RN	IL1RN	positive	CD1C+_B dendritic
+IL27RA	IL27RA	positive	CD1C+_B dendritic
+ITGA5	ITGA5	positive	CD1C+_B dendritic
+LAT2	LAT2	positive	CD1C+_B dendritic
+LMNA	LMNA	positive	CD1C+_B dendritic
+LYZ	LYZ	positive	CD1C+_B dendritic
+MGST1	MGST1	positive	CD1C+_B dendritic
+MICAL2	MICAL2	positive	CD1C+_B dendritic
+MNDA	MNDA	positive	CD1C+_B dendritic
+MPP7	MPP7	positive	CD1C+_B dendritic
+MTMR11	MTMR11	positive	CD1C+_B dendritic
+NA	NA	positive	CD1C+_B dendritic
+NAIP	NAIP	positive	CD1C+_B dendritic
+NFE2	NFE2	positive	CD1C+_B dendritic
+NLRP12	NLRP12	positive	CD1C+_B dendritic
+NLRP3	NLRP3	positive	CD1C+_B dendritic
+NOD2	NOD2	positive	CD1C+_B dendritic
+NR4A2	NR4A2	positive	CD1C+_B dendritic
+PID1	PID1	positive	CD1C+_B dendritic
+PLBD1	PLBD1	positive	CD1C+_B dendritic
+PTAFR	PTAFR	positive	CD1C+_B dendritic
+RAB27A	RAB27A	positive	CD1C+_B dendritic
+RAB3D	RAB3D	positive	CD1C+_B dendritic
+RETN	RETN	positive	CD1C+_B dendritic
+RNASE2	RNASE2	positive	CD1C+_B dendritic
+S100A12	S100A12	positive	CD1C+_B dendritic
+S100A8	S100A8	positive	CD1C+_B dendritic
+S100A9	S100A9	positive	CD1C+_B dendritic
+SLC2A3	SLC2A3	positive	CD1C+_B dendritic
+TMEM173	TMEM173	positive	CD1C+_B dendritic
+TREM1	TREM1	positive	CD1C+_B dendritic
+VCAN	VCAN	positive	CD1C+_B dendritic
+ABCC3	ABCC3	positive	CD1C-CD141- dendritic
+ABHD3	ABHD3	positive	CD1C-CD141- dendritic
+ABI3	ABI3	positive	CD1C-CD141- dendritic
+ACOT9	ACOT9	positive	CD1C-CD141- dendritic
+AGTRAP	AGTRAP	positive	CD1C-CD141- dendritic
+AIF1	AIF1	positive	CD1C-CD141- dendritic
+ALDH3B1	ALDH3B1	positive	CD1C-CD141- dendritic
+ALOX5	ALOX5	positive	CD1C-CD141- dendritic
+AMPD2	AMPD2	positive	CD1C-CD141- dendritic
+AP2A1	AP2A1	positive	CD1C-CD141- dendritic
+APOBEC3A	APOBEC3A	positive	CD1C-CD141- dendritic
+APOL6	APOL6	positive	CD1C-CD141- dendritic
+ARAP1	ARAP1	positive	CD1C-CD141- dendritic
+ARAP2	ARAP2	positive	CD1C-CD141- dendritic
+ARHGEF3	ARHGEF3	positive	CD1C-CD141- dendritic
+ARL4A	ARL4A	positive	CD1C-CD141- dendritic
+ARRB1	ARRB1	positive	CD1C-CD141- dendritic
+ARRB2	ARRB2	positive	CD1C-CD141- dendritic
+ARRDC3	ARRDC3	positive	CD1C-CD141- dendritic
+ASAH1	ASAH1	positive	CD1C-CD141- dendritic
+ATP1B3	ATP1B3	positive	CD1C-CD141- dendritic
+BACH1	BACH1	positive	CD1C-CD141- dendritic
+BCL2A1	BCL2A1	positive	CD1C-CD141- dendritic
+BID	BID	positive	CD1C-CD141- dendritic
+BIN2	BIN2	positive	CD1C-CD141- dendritic
+BLOC1S3	BLOC1S3	positive	CD1C-CD141- dendritic
+BLVRA	BLVRA	positive	CD1C-CD141- dendritic
+C3AR1	C3AR1	positive	CD1C-CD141- dendritic
+C5AR1	C5AR1	positive	CD1C-CD141- dendritic
+CABP4	CABP4	positive	CD1C-CD141- dendritic
+CALML4	CALML4	positive	CD1C-CD141- dendritic
+CAMK1	CAMK1	positive	CD1C-CD141- dendritic
+CAMKK2	CAMKK2	positive	CD1C-CD141- dendritic
+CASP1	CASP1	positive	CD1C-CD141- dendritic
+CASP4	CASP4	positive	CD1C-CD141- dendritic
+CCM2	CCM2	positive	CD1C-CD141- dendritic
+CCPG1	CCPG1	positive	CD1C-CD141- dendritic
+CD244	CD244	positive	CD1C-CD141- dendritic
+CD300A	CD300A	positive	CD1C-CD141- dendritic
+CD300E	CD300E	positive	CD1C-CD141- dendritic
+CD300LF	CD300LF	positive	CD1C-CD141- dendritic
+CD52	CD52	positive	CD1C-CD141- dendritic
+CD68	CD68	positive	CD1C-CD141- dendritic
+CD79B	CD79B	positive	CD1C-CD141- dendritic
+CDC42EP3	CDC42EP3	positive	CD1C-CD141- dendritic
+CDH23	CDH23	positive	CD1C-CD141- dendritic
+CDKN1C	CDKN1C	positive	CD1C-CD141- dendritic
+CFD	CFD	positive	CD1C-CD141- dendritic
+CHST15	CHST15	positive	CD1C-CD141- dendritic
+CKB	CKB	positive	CD1C-CD141- dendritic
+CLEC12A	CLEC12A	positive	CD1C-CD141- dendritic
+CLEC4F	CLEC4F	positive	CD1C-CD141- dendritic
+CLEC7A	CLEC7A	positive	CD1C-CD141- dendritic
+CMTM7	CMTM7	positive	CD1C-CD141- dendritic
+CNIH4	CNIH4	positive	CD1C-CD141- dendritic
+CORO2A	CORO2A	positive	CD1C-CD141- dendritic
+CPPED1	CPPED1	positive	CD1C-CD141- dendritic
+CSF1R	CSF1R	positive	CD1C-CD141- dendritic
+CSGALNACT2	CSGALNACT2	positive	CD1C-CD141- dendritic
+CSK	CSK	positive	CD1C-CD141- dendritic
+CTSS	CTSS	positive	CD1C-CD141- dendritic
+CX3CR1	CX3CR1	positive	CD1C-CD141- dendritic
+CXCL16	CXCL16	positive	CD1C-CD141- dendritic
+CYTIP	CYTIP	positive	CD1C-CD141- dendritic
+DDX58	DDX58	positive	CD1C-CD141- dendritic
+DDX60	DDX60	positive	CD1C-CD141- dendritic
+DDX60L	DDX60L	positive	CD1C-CD141- dendritic
+DENND3	DENND3	positive	CD1C-CD141- dendritic
+DENND5A	DENND5A	positive	CD1C-CD141- dendritic
+DMXL2	DMXL2	positive	CD1C-CD141- dendritic
+DNAJB1	DNAJB1	positive	CD1C-CD141- dendritic
+DNASE2	DNASE2	positive	CD1C-CD141- dendritic
+DOK2	DOK2	positive	CD1C-CD141- dendritic
+DOK3	DOK3	positive	CD1C-CD141- dendritic
+DPEP2	DPEP2	positive	CD1C-CD141- dendritic
+DRAP1	DRAP1	positive	CD1C-CD141- dendritic
+DUSP1	DUSP1	positive	CD1C-CD141- dendritic
+DUSP6	DUSP6	positive	CD1C-CD141- dendritic
+EHD1	EHD1	positive	CD1C-CD141- dendritic
+ERICH1	ERICH1	positive	CD1C-CD141- dendritic
+EVL	EVL	positive	CD1C-CD141- dendritic
+FAM110A	FAM110A	positive	CD1C-CD141- dendritic
+FAM126A	FAM126A	positive	CD1C-CD141- dendritic
+FCAR	FCAR	positive	CD1C-CD141- dendritic
+FCGR2A	FCGR2A	positive	CD1C-CD141- dendritic
+FCGR2C	FCGR2C	positive	CD1C-CD141- dendritic
+FCGR3A	FCGR3A	positive	CD1C-CD141- dendritic
+FCGR3B	FCGR3B	positive	CD1C-CD141- dendritic
+FCN1	FCN1	positive	CD1C-CD141- dendritic
+FGD3	FGD3	positive	CD1C-CD141- dendritic
+FGD4	FGD4	positive	CD1C-CD141- dendritic
+FGR	FGR	positive	CD1C-CD141- dendritic
+FLNA	FLNA	positive	CD1C-CD141- dendritic
+FOXO1	FOXO1	positive	CD1C-CD141- dendritic
+FPR1	FPR1	positive	CD1C-CD141- dendritic
+FTH1	FTH1	positive	CD1C-CD141- dendritic
+FTL	FTL	positive	CD1C-CD141- dendritic
+GBP1	GBP1	positive	CD1C-CD141- dendritic
+GBP2	GBP2	positive	CD1C-CD141- dendritic
+GBP4	GBP4	positive	CD1C-CD141- dendritic
+GBP5	GBP5	positive	CD1C-CD141- dendritic
+GIMAP1	GIMAP1	positive	CD1C-CD141- dendritic
+GIMAP2	GIMAP2	positive	CD1C-CD141- dendritic
+GIMAP4	GIMAP4	positive	CD1C-CD141- dendritic
+GIMAP7	GIMAP7	positive	CD1C-CD141- dendritic
+GLUL	GLUL	positive	CD1C-CD141- dendritic
+GNG2	GNG2	positive	CD1C-CD141- dendritic
+GNS	GNS	positive	CD1C-CD141- dendritic
+GPBAR1	GPBAR1	positive	CD1C-CD141- dendritic
+GPR155	GPR155	positive	CD1C-CD141- dendritic
+GRAMD1A	GRAMD1A	positive	CD1C-CD141- dendritic
+HCK	HCK	positive	CD1C-CD141- dendritic
+HEG1	HEG1	positive	CD1C-CD141- dendritic
+HK1	HK1	positive	CD1C-CD141- dendritic
+HK3	HK3	positive	CD1C-CD141- dendritic
+HLA-E	HLA-E	positive	CD1C-CD141- dendritic
+HMOX1	HMOX1	positive	CD1C-CD141- dendritic
+HSBP1	HSBP1	positive	CD1C-CD141- dendritic
+ICAM2	ICAM2	positive	CD1C-CD141- dendritic
+ICAM4	ICAM4	positive	CD1C-CD141- dendritic
+IFI30	IFI30	positive	CD1C-CD141- dendritic
+IFI6	IFI6	positive	CD1C-CD141- dendritic
+IFIT2	IFIT2	positive	CD1C-CD141- dendritic
+IFIT3	IFIT3	positive	CD1C-CD141- dendritic
+IFITM1	IFITM1	positive	CD1C-CD141- dendritic
+IFITM2	IFITM2	positive	CD1C-CD141- dendritic
+IFITM3	IFITM3	positive	CD1C-CD141- dendritic
+IFNGR2	IFNGR2	positive	CD1C-CD141- dendritic
+IL12RB1	IL12RB1	positive	CD1C-CD141- dendritic
+IMPDH1	IMPDH1	positive	CD1C-CD141- dendritic
+INSIG1	INSIG1	positive	CD1C-CD141- dendritic
+IRAK3	IRAK3	positive	CD1C-CD141- dendritic
+IRF1	IRF1	positive	CD1C-CD141- dendritic
+ISG15	ISG15	positive	CD1C-CD141- dendritic
+ITGAL	ITGAL	positive	CD1C-CD141- dendritic
+ITGB1	ITGB1	positive	CD1C-CD141- dendritic
+ITM2B	ITM2B	positive	CD1C-CD141- dendritic
+KDM1B	KDM1B	positive	CD1C-CD141- dendritic
+KIAA0513	KIAA0513	positive	CD1C-CD141- dendritic
+KLF11	KLF11	positive	CD1C-CD141- dendritic
+KLF3	KLF3	positive	CD1C-CD141- dendritic
+KSR1	KSR1	positive	CD1C-CD141- dendritic
+L1TD1	L1TD1	positive	CD1C-CD141- dendritic
+LCP2	LCP2	positive	CD1C-CD141- dendritic
+LGALS3	LGALS3	positive	CD1C-CD141- dendritic
+LILRA2	LILRA2	positive	CD1C-CD141- dendritic
+LILRA5	LILRA5	positive	CD1C-CD141- dendritic
+LILRA6	LILRA6	positive	CD1C-CD141- dendritic
+LILRB1	LILRB1	positive	CD1C-CD141- dendritic
+LILRB2	LILRB2	positive	CD1C-CD141- dendritic
+LIMS1	LIMS1	positive	CD1C-CD141- dendritic
+LRP1	LRP1	positive	CD1C-CD141- dendritic
+LRRC25	LRRC25	positive	CD1C-CD141- dendritic
+LST1	LST1	positive	CD1C-CD141- dendritic
+LTA4H	LTA4H	positive	CD1C-CD141- dendritic
+LY6E	LY6E	positive	CD1C-CD141- dendritic
+LYN	LYN	positive	CD1C-CD141- dendritic
+LYST	LYST	positive	CD1C-CD141- dendritic
+MAFB	MAFB	positive	CD1C-CD141- dendritic
+MAGED2	MAGED2	positive	CD1C-CD141- dendritic
+MAP3K1	MAP3K1	positive	CD1C-CD141- dendritic
+MARCKS	MARCKS	positive	CD1C-CD141- dendritic
+MBD2	MBD2	positive	CD1C-CD141- dendritic
+MCTP1	MCTP1	positive	CD1C-CD141- dendritic
+MEFV	MEFV	positive	CD1C-CD141- dendritic
+MPP1	MPP1	positive	CD1C-CD141- dendritic
+MS4A4A	MS4A4A	positive	CD1C-CD141- dendritic
+MS4A7	MS4A7	positive	CD1C-CD141- dendritic
+MSN	MSN	positive	CD1C-CD141- dendritic
+MT2A	MT2A	positive	CD1C-CD141- dendritic
+MTSS1	MTSS1	positive	CD1C-CD141- dendritic
+MXD3	MXD3	positive	CD1C-CD141- dendritic
+MYO1G	MYO1G	positive	CD1C-CD141- dendritic
+MYOF	MYOF	positive	CD1C-CD141- dendritic
+NA	NA	positive	CD1C-CD141- dendritic
+NAAA	NAAA	positive	CD1C-CD141- dendritic
+NADK	NADK	positive	CD1C-CD141- dendritic
+NAMPT	NAMPT	positive	CD1C-CD141- dendritic
+NAP1L1	NAP1L1	positive	CD1C-CD141- dendritic
+NBEAL2	NBEAL2	positive	CD1C-CD141- dendritic
+NCF2	NCF2	positive	CD1C-CD141- dendritic
+NDUFB3	NDUFB3	positive	CD1C-CD141- dendritic
+NECAP2	NECAP2	positive	CD1C-CD141- dendritic
+NFAM1	NFAM1	positive	CD1C-CD141- dendritic
+NFKBIZ	NFKBIZ	positive	CD1C-CD141- dendritic
+NINJ1	NINJ1	positive	CD1C-CD141- dendritic
+NLRP1	NLRP1	positive	CD1C-CD141- dendritic
+NPL	NPL	positive	CD1C-CD141- dendritic
+NR4A1	NR4A1	positive	CD1C-CD141- dendritic
+NUDT16	NUDT16	positive	CD1C-CD141- dendritic
+OAS1	OAS1	positive	CD1C-CD141- dendritic
+P2RX1	P2RX1	positive	CD1C-CD141- dendritic
+P2RY13	P2RY13	positive	CD1C-CD141- dendritic
+PAG1	PAG1	positive	CD1C-CD141- dendritic
+PDLIM5	PDLIM5	positive	CD1C-CD141- dendritic
+PDP1	PDP1	positive	CD1C-CD141- dendritic
+PECAM1	PECAM1	positive	CD1C-CD141- dendritic
+PELI1	PELI1	positive	CD1C-CD141- dendritic
+PHTF2	PHTF2	positive	CD1C-CD141- dendritic
+PIEZO1	PIEZO1	positive	CD1C-CD141- dendritic
+PIK3AP1	PIK3AP1	positive	CD1C-CD141- dendritic
+PIK3IP1	PIK3IP1	positive	CD1C-CD141- dendritic
+PILRA	PILRA	positive	CD1C-CD141- dendritic
+PITPNM1	PITPNM1	positive	CD1C-CD141- dendritic
+PLEKHO2	PLEKHO2	positive	CD1C-CD141- dendritic
+PLIN2	PLIN2	positive	CD1C-CD141- dendritic
+PLXNC1	PLXNC1	positive	CD1C-CD141- dendritic
+PNPLA6	PNPLA6	positive	CD1C-CD141- dendritic
+POU2F2	POU2F2	positive	CD1C-CD141- dendritic
+PPM1F	PPM1F	positive	CD1C-CD141- dendritic
+PRAM1	PRAM1	positive	CD1C-CD141- dendritic
+PSAP	PSAP	positive	CD1C-CD141- dendritic
+PSTPIP2	PSTPIP2	positive	CD1C-CD141- dendritic
+PTGER2	PTGER2	positive	CD1C-CD141- dendritic
+PTGER4	PTGER4	positive	CD1C-CD141- dendritic
+PTP4A3	PTP4A3	positive	CD1C-CD141- dendritic
+PTPN13	PTPN13	positive	CD1C-CD141- dendritic
+PTPN6	PTPN6	positive	CD1C-CD141- dendritic
+PTPRC	PTPRC	positive	CD1C-CD141- dendritic
+PYGL	PYGL	positive	CD1C-CD141- dendritic
+RAB10	RAB10	positive	CD1C-CD141- dendritic
+RAB24	RAB24	positive	CD1C-CD141- dendritic
+RAB37	RAB37	positive	CD1C-CD141- dendritic
+RAB3D	RAB3D	positive	CD1C-CD141- dendritic
+RALB	RALB	positive	CD1C-CD141- dendritic
+RAP1B	RAP1B	positive	CD1C-CD141- dendritic
+RAP1GAP2	RAP1GAP2	positive	CD1C-CD141- dendritic
+RASGRP4	RASGRP4	positive	CD1C-CD141- dendritic
+RELT	RELT	positive	CD1C-CD141- dendritic
+RHOC	RHOC	positive	CD1C-CD141- dendritic
+RNF144B	RNF144B	positive	CD1C-CD141- dendritic
+RNF149	RNF149	positive	CD1C-CD141- dendritic
+RXRA	RXRA	positive	CD1C-CD141- dendritic
+S100A11	S100A11	positive	CD1C-CD141- dendritic
+S100A4	S100A4	positive	CD1C-CD141- dendritic
+SAMSN1	SAMSN1	positive	CD1C-CD141- dendritic
+SASH1	SASH1	positive	CD1C-CD141- dendritic
+SAT1	SAT1	positive	CD1C-CD141- dendritic
+SCIMP	SCIMP	positive	CD1C-CD141- dendritic
+SCPEP1	SCPEP1	positive	CD1C-CD141- dendritic
+SDCBP	SDCBP	positive	CD1C-CD141- dendritic
+SERPINA1	SERPINA1	positive	CD1C-CD141- dendritic
+SGPL1	SGPL1	positive	CD1C-CD141- dendritic
+SH2D1B	SH2D1B	positive	CD1C-CD141- dendritic
+SH3BP2	SH3BP2	positive	CD1C-CD141- dendritic
+SIDT2	SIDT2	positive	CD1C-CD141- dendritic
+SIGLEC10	SIGLEC10	positive	CD1C-CD141- dendritic
+SIRPB1	SIRPB1	positive	CD1C-CD141- dendritic
+SIRPB2	SIRPB2	positive	CD1C-CD141- dendritic
+SLA	SLA	positive	CD1C-CD141- dendritic
+SLC11A1	SLC11A1	positive	CD1C-CD141- dendritic
+SLC2A6	SLC2A6	positive	CD1C-CD141- dendritic
+SLC31A2	SLC31A2	positive	CD1C-CD141- dendritic
+SLC44A2	SLC44A2	positive	CD1C-CD141- dendritic
+SLC7A7	SLC7A7	positive	CD1C-CD141- dendritic
+SMAP2	SMAP2	positive	CD1C-CD141- dendritic
+SNX18	SNX18	positive	CD1C-CD141- dendritic
+SOD2	SOD2	positive	CD1C-CD141- dendritic
+SPN	SPN	positive	CD1C-CD141- dendritic
+SSH2	SSH2	positive	CD1C-CD141- dendritic
+STK10	STK10	positive	CD1C-CD141- dendritic
+STK38	STK38	positive	CD1C-CD141- dendritic
+STX11	STX11	positive	CD1C-CD141- dendritic
+STXBP2	STXBP2	positive	CD1C-CD141- dendritic
+SULT1A1	SULT1A1	positive	CD1C-CD141- dendritic
+SVIL	SVIL	positive	CD1C-CD141- dendritic
+SWAP70	SWAP70	positive	CD1C-CD141- dendritic
+SYTL1	SYTL1	positive	CD1C-CD141- dendritic
+TAGLN	TAGLN	positive	CD1C-CD141- dendritic
+TBC1D8	TBC1D8	positive	CD1C-CD141- dendritic
+TBCD	TBCD	positive	CD1C-CD141- dendritic
+TBXAS1	TBXAS1	positive	CD1C-CD141- dendritic
+TCF7L2	TCF7L2	positive	CD1C-CD141- dendritic
+TCIRG1	TCIRG1	positive	CD1C-CD141- dendritic
+TESC	TESC	positive	CD1C-CD141- dendritic
+TIAM1	TIAM1	positive	CD1C-CD141- dendritic
+TIMP1	TIMP1	positive	CD1C-CD141- dendritic
+TKT	TKT	positive	CD1C-CD141- dendritic
+TLE4	TLE4	positive	CD1C-CD141- dendritic
+TLR2	TLR2	positive	CD1C-CD141- dendritic
+TLR4	TLR4	positive	CD1C-CD141- dendritic
+TMBIM1	TMBIM1	positive	CD1C-CD141- dendritic
+TMC6	TMC6	positive	CD1C-CD141- dendritic
+TMEM11	TMEM11	positive	CD1C-CD141- dendritic
+TMEM134	TMEM134	positive	CD1C-CD141- dendritic
+TMEM154	TMEM154	positive	CD1C-CD141- dendritic
+TMEM176B	TMEM176B	positive	CD1C-CD141- dendritic
+TMPO	TMPO	positive	CD1C-CD141- dendritic
+TMTC1	TMTC1	positive	CD1C-CD141- dendritic
+TNFRSF14	TNFRSF14	positive	CD1C-CD141- dendritic
+TNFRSF1B	TNFRSF1B	positive	CD1C-CD141- dendritic
+TNFSF10	TNFSF10	positive	CD1C-CD141- dendritic
+TSC22D3	TSC22D3	positive	CD1C-CD141- dendritic
+TSPAN14	TSPAN14	positive	CD1C-CD141- dendritic
+TSPAN32	TSPAN32	positive	CD1C-CD141- dendritic
+TTYH3	TTYH3	positive	CD1C-CD141- dendritic
+TUBA1A	TUBA1A	positive	CD1C-CD141- dendritic
+TXNIP	TXNIP	positive	CD1C-CD141- dendritic
+TYMP	TYMP	positive	CD1C-CD141- dendritic
+TYROBP	TYROBP	positive	CD1C-CD141- dendritic
+UBXN11	UBXN11	positive	CD1C-CD141- dendritic
+UNC13D	UNC13D	positive	CD1C-CD141- dendritic
+UPP1	UPP1	positive	CD1C-CD141- dendritic
+VAMP5	VAMP5	positive	CD1C-CD141- dendritic
+VASP	VASP	positive	CD1C-CD141- dendritic
+VMP1	VMP1	positive	CD1C-CD141- dendritic
+VPS53	VPS53	positive	CD1C-CD141- dendritic
+WARS	WARS	positive	CD1C-CD141- dendritic
+WDFY1	WDFY1	positive	CD1C-CD141- dendritic
+WDR11	WDR11	positive	CD1C-CD141- dendritic
+WSB1	WSB1	positive	CD1C-CD141- dendritic
+YPEL2	YPEL2	positive	CD1C-CD141- dendritic
+ZEB2	ZEB2	positive	CD1C-CD141- dendritic
+ZFAND5	ZFAND5	positive	CD1C-CD141- dendritic
+ZNFX1	ZNFX1	positive	CD1C-CD141- dendritic
+CCR6	CCR6	positive	CD4+ T
+CD3D	CD3D	positive	CD4+ T
+CD3E	CD3E	positive	CD4+ T
+CD3G	CD3G	positive	CD4+ T
+CD4	CD4	positive	CD4+ T
+CD3D	CD3D	positive	CD8+ T
+CD3E	CD3E	positive	CD8+ T
+CD3G	CD3G	positive	CD8+ T
+CD8A	CD8A	positive	CD8+ T
+NCAM1	NCAM1	positive	CD8+ T
+TNFRSF8	TNFRSF8	positive	CD8+ T
+		positive	Circulating fetal
+ACTB	ACTB	positive	Circulating fetal
+ATF4	ATF4	positive	Circulating fetal
+CD33	CD33	positive	Circulating fetal
+CD68	CD68	positive	Circulating fetal
+CD9	CD9	positive	Circulating fetal
+CDC42	CDC42	positive	Circulating fetal
+CLDN6	CLDN6	positive	Circulating fetal
+COL1A2	COL1A2	positive	Circulating fetal
+CRABP1	CRABP1	positive	Circulating fetal
+CRIP1	CRIP1	positive	Circulating fetal
+CRYL1	CRYL1	positive	Circulating fetal
+CTNNB1	CTNNB1	positive	Circulating fetal
+DLX5	DLX5	positive	Circulating fetal
+EN1	EN1	positive	Circulating fetal
+F11R	F11R	positive	Circulating fetal
+F3	F3	positive	Circulating fetal
+FOXA2	FOXA2	positive	Circulating fetal
+GATA5	GATA5	positive	Circulating fetal
+HAMP	HAMP	positive	Circulating fetal
+HMGA1	HMGA1	positive	Circulating fetal
+IL7R	IL7R	positive	Circulating fetal
+JUN	JUN	positive	Circulating fetal
+JUNB	JUNB	positive	Circulating fetal
+KCNQ4	KCNQ4	positive	Circulating fetal
+MCAM	MCAM	positive	Circulating fetal
+MMP14	MMP14	positive	Circulating fetal
+MMP9	MMP9	positive	Circulating fetal
+NA	NA	positive	Circulating fetal
+NCAM1	NCAM1	positive	Circulating fetal
+OLIG2	OLIG2	positive	Circulating fetal
+PBLD	PBLD	positive	Circulating fetal
+PDGFC	PDGFC	positive	Circulating fetal
+PF4	PF4	positive	Circulating fetal
+PUM2	PUM2	positive	Circulating fetal
+SELE	SELE	positive	Circulating fetal
+SELPLG	SELPLG	positive	Circulating fetal
+SMAD3	SMAD3	positive	Circulating fetal
+SMC3	SMC3	positive	Circulating fetal
+SOX13	SOX13	positive	Circulating fetal
+TCF3	TCF3	positive	Circulating fetal
+TNC	TNC	positive	Circulating fetal
+ALDHfamily	ALDHfamily	positive	Circulating progenitor
+CD34	CD34	positive	Circulating progenitor
+PROM1	PROM1	positive	Circulating progenitor
+CD14	CD14	positive	Classical monocyte
+FCGR3A	FCGR3A	positive	Classical monocyte
+FCGR3B	FCGR3B	positive	Classical monocyte
+BHLHE40	BHLHE40	positive	Decidual
+CD83	CD83	positive	Dendritic
+CLEC9A	CLEC9A	positive	Dendritic
+PROM1	PROM1	positive	Early hematopoietic
+CCR7	CCR7	positive	Effector CD4+ memory T (Tem)
+PTPRC	PTPRC	positive	Effector CD4+ memory T (Tem)
+MCAM	MCAM	positive	Endothelial
+PTPRC	PTPRC	positive	Endothelial
+RFTN1	RFTN1	positive	Endothelial
+CD34	CD34	positive	Endothelial progenitor
+KDR	KDR	positive	Endothelial progenitor
+PROM1	PROM1	positive	Endothelial progenitor
+PTPRC	PTPRC	positive	Endothelial progenitor
+CD44	CD44	positive	Eosinophil
+CD48	CD48	positive	Eosinophil
+CD69	CD69	positive	Eosinophil
+CD81	CD81	positive	Eosinophil
+CEACAM5	CEACAM5	positive	Eosinophil
+CSF2RA	CSF2RA	positive	Eosinophil
+CSF3R	CSF3R	positive	Eosinophil
+HLA-DRfamily	HLA-DRfamily	positive	Eosinophil
+ICAM1	ICAM1	positive	Eosinophil
+IL2RA	IL2RA	positive	Eosinophil
+IL3RA	IL3RA	positive	Eosinophil
+IL4R	IL4R	positive	Eosinophil
+IL5RA	IL5RA	positive	Eosinophil
+IL6R	IL6R	positive	Eosinophil
+ITGAM	ITGAM	positive	Eosinophil
+TFRC	TFRC	positive	Erythroblast
+CD4	CD4	positive	FOXP3+ natural regulatory T (Treg)
+CD6	CD6	positive	FOXP3+ natural regulatory T (Treg)
+IL2RA	IL2RA	positive	FOXP3+ natural regulatory T (Treg)
+CEACAM8	CEACAM8	positive	Granulocyte
+A4GALT	A4GALT	positive	Hematopoietic stem
+ABCG2	ABCG2	positive	Hematopoietic stem
+ALDH1A1	ALDH1A1	positive	Hematopoietic stem
+BMI1	BMI1	positive	Hematopoietic stem
+CASP3	CASP3	positive	Hematopoietic stem
+CD244	CD244	positive	Hematopoietic stem
+CD34	CD34	positive	Hematopoietic stem
+CD38	CD38	positive	Hematopoietic stem
+CD44	CD44	positive	Hematopoietic stem
+CD48	CD48	positive	Hematopoietic stem
+CD93	CD93	positive	Hematopoietic stem
+CDCP1	CDCP1	positive	Hematopoietic stem
+CXCR4	CXCR4	positive	Hematopoietic stem
+ENG	ENG	positive	Hematopoietic stem
+EPOR	EPOR	positive	Hematopoietic stem
+ESAM	ESAM	positive	Hematopoietic stem
+FLT3	FLT3	positive	Hematopoietic stem
+GATA2	GATA2	positive	Hematopoietic stem
+GFI1	GFI1	positive	Hematopoietic stem
+ITGA6	ITGA6	positive	Hematopoietic stem
+KDR	KDR	positive	Hematopoietic stem
+KIT	KIT	positive	Hematopoietic stem
+MCL1	MCL1	positive	Hematopoietic stem
+MECOM	MECOM	positive	Hematopoietic stem
+MYB	MYB	positive	Hematopoietic stem
+NA	NA	positive	Hematopoietic stem
+PODXL	PODXL	positive	Hematopoietic stem
+PROM1	PROM1	positive	Hematopoietic stem
+PROM2	PROM2	positive	Hematopoietic stem
+PTEN	PTEN	positive	Hematopoietic stem
+PTPRC	PTPRC	positive	Hematopoietic stem
+SLAMF1	SLAMF1	positive	Hematopoietic stem
+SPI1	SPI1	positive	Hematopoietic stem
+SPIB	SPIB	positive	Hematopoietic stem
+STAT5A	STAT5A	positive	Hematopoietic stem
+STAT5B	STAT5B	positive	Hematopoietic stem
+THY1	THY1	positive	Hematopoietic stem
+VCAM1	VCAM1	positive	Hematopoietic stem
+ZBTB16	ZBTB16	positive	Hematopoietic stem
+CD19	CD19	positive	Immature transitional B
+CD24	CD24	positive	Immature transitional B
+CD38	CD38	positive	Immature transitional B
+CD14	CD14	positive	Intermediate monocyte
+FCGR3A	FCGR3A	positive	Intermediate monocyte
+FCGR3B	FCGR3B	positive	Intermediate monocyte
+CD38	CD38	positive	Leukocyte
+CD3D	CD3D	positive	Leukocyte
+CD3E	CD3E	positive	Leukocyte
+CD3G	CD3G	positive	Leukocyte
+FCGR3A	FCGR3A	positive	Leukocyte
+FCGR3B	FCGR3B	positive	Leukocyte
+GP1BA	GP1BA	positive	Leukocyte
+MS4A1	MS4A1	positive	Leukocyte
+PTPRC	PTPRC	positive	Leukocyte
+ANXA5	ANXA5	positive	Lymphocyte
+CX3CR1	CX3CR1	positive	Lymphocyte
+GZMB	GZMB	positive	Lymphoid
+NCAM1	NCAM1	positive	Lymphoid
+TIA1	TIA1	positive	Lymphoid
+CD34	CD34	positive	Mature endothelial
+CD14	CD14	positive	Megakaryocyte
+CD33	CD33	positive	Megakaryocyte
+FUT4	FUT4	positive	Megakaryocyte
+CD19	CD19	positive	Memory B
+CD27	CD27	positive	Memory B
+BSG	BSG	positive	Monocyte
+CD14	CD14	positive	Monocyte
+CD163	CD163	positive	Monocyte
+CD244	CD244	positive	Monocyte
+COX2	COX2	positive	Monocyte
+HLA-DRfamily	HLA-DRfamily	positive	Monocyte
+ICAM4	ICAM4	positive	Monocyte
+ITGAM	ITGAM	positive	Monocyte
+ITGB2	ITGB2	positive	Monocyte
+MPO	MPO	positive	Monocyte
+SELPLG	SELPLG	positive	Monocyte
+GP1BA	GP1BA	positive	Myeloid
+ITGA2B	ITGA2B	positive	Myeloid
+ADGRE1	ADGRE1	positive	Myeloid dendritic
+CCR7	CCR7	positive	Myeloid dendritic
+CD1A	CD1A	positive	Myeloid dendritic
+CD1B	CD1B	positive	Myeloid dendritic
+CD1C	CD1C	positive	Myeloid dendritic
+CD207	CD207	positive	Myeloid dendritic
+CD209	CD209	positive	Myeloid dendritic
+CD4	CD4	positive	Myeloid dendritic
+CD40	CD40	positive	Myeloid dendritic
+CD80	CD80	positive	Myeloid dendritic
+CD83	CD83	positive	Myeloid dendritic
+CD86	CD86	positive	Myeloid dendritic
+HLA-DRfamily	HLA-DRfamily	positive	Myeloid dendritic
+ITGA4	ITGA4	positive	Myeloid dendritic
+ITGAM	ITGAM	positive	Myeloid dendritic
+ITGAX	ITGAX	positive	Myeloid dendritic
+LY75	LY75	positive	Myeloid dendritic
+MHCClassII	MHCClassII	positive	Myeloid dendritic
+NA	NA	positive	Myeloid dendritic
+NRP1	NRP1	positive	Myeloid dendritic
+PDCD1LG2	PDCD1LG2	positive	Myeloid dendritic
+CD19	CD19	positive	Naive B
+CD24	CD24	positive	Naive B
+CD27	CD27	positive	Naive B
+CD38	CD38	positive	Naive B
+IgDfamily	IgDfamily	positive	Naive B
+CD4	CD4	positive	Naive CD4+ T
+PTPRC	PTPRC	positive	Naive CD4+ T
+SELL	SELL	positive	Naive CD4+ T
+CCR7	CCR7	positive	Naive T
+CD3D	CD3D	positive	Naive T
+CD3E	CD3E	positive	Naive T
+CD3G	CD3G	positive	Naive T
+CD4	CD4	positive	Naive T
+PTPRC	PTPRC	positive	Naive T
+SELL	SELL	positive	Naive T
+CD19	CD19	positive	Natural killer
+CD2	CD2	positive	Natural killer
+CD3D	CD3D	positive	Natural killer
+CD3E	CD3E	positive	Natural killer
+CD3G	CD3G	positive	Natural killer
+FCGR3A	FCGR3A	positive	Natural killer
+FCGR3B	FCGR3B	positive	Natural killer
+ITGAM	ITGAM	positive	Natural killer
+KLRC1	KLRC1	positive	Natural killer
+KLRD1	KLRD1	positive	Natural killer
+NCAM1	NCAM1	positive	Natural killer
+CD6	CD6	positive	Natural regulatory T (Treg)
+ANPEP	ANPEP	positive	Neutrophil
+C5AR1	C5AR1	positive	Neutrophil
+CD14	CD14	positive	Neutrophil
+CD33	CD33	positive	Neutrophil
+CEACAM8	CEACAM8	positive	Neutrophil
+CSF3R	CSF3R	positive	Neutrophil
+CXCR1	CXCR1	positive	Neutrophil
+CXCR2	CXCR2	positive	Neutrophil
+FCGR1A	FCGR1A	positive	Neutrophil
+FCGR2A	FCGR2A	positive	Neutrophil
+FCGR2B	FCGR2B	positive	Neutrophil
+FCGR2C	FCGR2C	positive	Neutrophil
+FCGR3A	FCGR3A	positive	Neutrophil
+FCGR3B	FCGR3B	positive	Neutrophil
+FUT4	FUT4	positive	Neutrophil
+ITGAM	ITGAM	positive	Neutrophil
+ITGAX	ITGAX	positive	Neutrophil
+JAML	JAML	positive	Neutrophil
+LCN2	LCN2	positive	Neutrophil
+MME	MME	positive	Neutrophil
+PECAM1	PECAM1	positive	Neutrophil
+SELL	SELL	positive	Neutrophil
+TLR2	TLR2	positive	Neutrophil
+CD14	CD14	positive	Non-classical monocyte
+FCGR3A	FCGR3A	positive	Non-classical monocyte
+FCGR3B	FCGR3B	positive	Non-classical monocyte
+CD27	CD27	positive	Non-switched B
+IgDfamily	IgDfamily	positive	Non-switched B
+NA	NA	positive	Null
+CD38	CD38	positive	Plasmablast
+CD40LG	CD40LG	positive	Plasmablast
+11-Sep	11-Sep	positive	Plasmacytoid dendritic
+ABCA2	ABCA2	positive	Plasmacytoid dendritic
+ABCA7	ABCA7	positive	Plasmacytoid dendritic
+ABHD15	ABHD15	positive	Plasmacytoid dendritic
+ABI2	ABI2	positive	Plasmacytoid dendritic
+ADA	ADA	positive	Plasmacytoid dendritic
+ADAM19	ADAM19	positive	Plasmacytoid dendritic
+ADGRE1	ADGRE1	positive	Plasmacytoid dendritic
+AHCY	AHCY	positive	Plasmacytoid dendritic
+AHI1	AHI1	positive	Plasmacytoid dendritic
+AHNAK2	AHNAK2	positive	Plasmacytoid dendritic
+ALDH5A1	ALDH5A1	positive	Plasmacytoid dendritic
+ALG2	ALG2	positive	Plasmacytoid dendritic
+ALOX5AP	ALOX5AP	positive	Plasmacytoid dendritic
+ANKRD36	ANKRD36	positive	Plasmacytoid dendritic
+ANKRD36B	ANKRD36B	positive	Plasmacytoid dendritic
+ANKS3	ANKS3	positive	Plasmacytoid dendritic
+APP	APP	positive	Plasmacytoid dendritic
+ARHGEF4	ARHGEF4	positive	Plasmacytoid dendritic
+ARL6IP6	ARL6IP6	positive	Plasmacytoid dendritic
+ASPH	ASPH	positive	Plasmacytoid dendritic
+ATP13A2	ATP13A2	positive	Plasmacytoid dendritic
+ATP2A3	ATP2A3	positive	Plasmacytoid dendritic
+B4GALT1	B4GALT1	positive	Plasmacytoid dendritic
+BCL11A	BCL11A	positive	Plasmacytoid dendritic
+BEX4	BEX4	positive	Plasmacytoid dendritic
+BLNK	BLNK	positive	Plasmacytoid dendritic
+BTAF1	BTAF1	positive	Plasmacytoid dendritic
+CARD11	CARD11	positive	Plasmacytoid dendritic
+CCDC50	CCDC50	positive	Plasmacytoid dendritic
+CCDC69	CCDC69	positive	Plasmacytoid dendritic
+CCR2	CCR2	positive	Plasmacytoid dendritic
+CCR7	CCR7	positive	Plasmacytoid dendritic
+CCS	CCS	positive	Plasmacytoid dendritic
+CD164	CD164	positive	Plasmacytoid dendritic
+CD1A	CD1A	positive	Plasmacytoid dendritic
+CD1B	CD1B	positive	Plasmacytoid dendritic
+CD1C	CD1C	positive	Plasmacytoid dendritic
+CD2AP	CD2AP	positive	Plasmacytoid dendritic
+CD4	CD4	positive	Plasmacytoid dendritic
+CD40	CD40	positive	Plasmacytoid dendritic
+CD80	CD80	positive	Plasmacytoid dendritic
+CD83	CD83	positive	Plasmacytoid dendritic
+CD86	CD86	positive	Plasmacytoid dendritic
+CD8A	CD8A	positive	Plasmacytoid dendritic
+CD99	CD99	positive	Plasmacytoid dendritic
+CDCA7L	CDCA7L	positive	Plasmacytoid dendritic
+CEP135	CEP135	positive	Plasmacytoid dendritic
+CLCN5	CLCN5	positive	Plasmacytoid dendritic
+CLEC4C	CLEC4C	positive	Plasmacytoid dendritic
+CLIC3	CLIC3	positive	Plasmacytoid dendritic
+CLN8	CLN8	positive	Plasmacytoid dendritic
+CMKLR1	CMKLR1	positive	Plasmacytoid dendritic
+CNP	CNP	positive	Plasmacytoid dendritic
+COBLL1	COBLL1	positive	Plasmacytoid dendritic
+COL24A1	COL24A1	positive	Plasmacytoid dendritic
+CREB3L2	CREB3L2	positive	Plasmacytoid dendritic
+CRIM1	CRIM1	positive	Plasmacytoid dendritic
+CRYM	CRYM	positive	Plasmacytoid dendritic
+CSF2RB	CSF2RB	positive	Plasmacytoid dendritic
+CSNK1E	CSNK1E	positive	Plasmacytoid dendritic
+CTNS	CTNS	positive	Plasmacytoid dendritic
+CTSB	CTSB	positive	Plasmacytoid dendritic
+CUX2	CUX2	positive	Plasmacytoid dendritic
+CXCR3	CXCR3	positive	Plasmacytoid dendritic
+CYP46A1	CYP46A1	positive	Plasmacytoid dendritic
+CYSLTR1	CYSLTR1	positive	Plasmacytoid dendritic
+CYTH4	CYTH4	positive	Plasmacytoid dendritic
+DAAM1	DAAM1	positive	Plasmacytoid dendritic
+DAB2	DAB2	positive	Plasmacytoid dendritic
+DAPK2	DAPK2	positive	Plasmacytoid dendritic
+DCK	DCK	positive	Plasmacytoid dendritic
+DCPS	DCPS	positive	Plasmacytoid dendritic
+DENND5B	DENND5B	positive	Plasmacytoid dendritic
+DERL3	DERL3	positive	Plasmacytoid dendritic
+DHRS7	DHRS7	positive	Plasmacytoid dendritic
+DHTKD1	DHTKD1	positive	Plasmacytoid dendritic
+DPPA4	DPPA4	positive	Plasmacytoid dendritic
+DSN1	DSN1	positive	Plasmacytoid dendritic
+DUSP5	DUSP5	positive	Plasmacytoid dendritic
+EFHC1	EFHC1	positive	Plasmacytoid dendritic
+EGLN3	EGLN3	positive	Plasmacytoid dendritic
+EIF4A3	EIF4A3	positive	Plasmacytoid dendritic
+EMB	EMB	positive	Plasmacytoid dendritic
+EPHB1	EPHB1	positive	Plasmacytoid dendritic
+ERN1	ERN1	positive	Plasmacytoid dendritic
+ERP29	ERP29	positive	Plasmacytoid dendritic
+FAM129C	FAM129C	positive	Plasmacytoid dendritic
+FAM160A1	FAM160A1	positive	Plasmacytoid dendritic
+FCHSD2	FCHSD2	positive	Plasmacytoid dendritic
+FKBP2	FKBP2	positive	Plasmacytoid dendritic
+FLNB	FLNB	positive	Plasmacytoid dendritic
+FMNL3	FMNL3	positive	Plasmacytoid dendritic
+FOXRED2	FOXRED2	positive	Plasmacytoid dendritic
+FUT7	FUT7	positive	Plasmacytoid dendritic
+FZD3	FZD3	positive	Plasmacytoid dendritic
+GAB1	GAB1	positive	Plasmacytoid dendritic
+GALNT2	GALNT2	positive	Plasmacytoid dendritic
+GAPT	GAPT	positive	Plasmacytoid dendritic
+GAS6	GAS6	positive	Plasmacytoid dendritic
+GGA2	GGA2	positive	Plasmacytoid dendritic
+GLCE	GLCE	positive	Plasmacytoid dendritic
+GNG7	GNG7	positive	Plasmacytoid dendritic
+GPM6B	GPM6B	positive	Plasmacytoid dendritic
+GPR183	GPR183	positive	Plasmacytoid dendritic
+GZMB	GZMB	positive	Plasmacytoid dendritic
+HERPUD1	HERPUD1	positive	Plasmacytoid dendritic
+HIGD1A	HIGD1A	positive	Plasmacytoid dendritic
+HLA-DRfamily	HLA-DRfamily	positive	Plasmacytoid dendritic
+HNRNPA1L2	HNRNPA1L2	positive	Plasmacytoid dendritic
+HPS4	HPS4	positive	Plasmacytoid dendritic
+HSP90B1	HSP90B1	positive	Plasmacytoid dendritic
+IDH3A	IDH3A	positive	Plasmacytoid dendritic
+IFI44L	IFI44L	positive	Plasmacytoid dendritic
+IGFBP3	IGFBP3	positive	Plasmacytoid dendritic
+IGFLR1	IGFLR1	positive	Plasmacytoid dendritic
+IL3RA	IL3RA	positive	Plasmacytoid dendritic
+IQGAP2	IQGAP2	positive	Plasmacytoid dendritic
+IRF2BP2	IRF2BP2	positive	Plasmacytoid dendritic
+IRF4	IRF4	positive	Plasmacytoid dendritic
+IRF7	IRF7	positive	Plasmacytoid dendritic
+IRF8	IRF8	positive	Plasmacytoid dendritic
+ITGA4	ITGA4	positive	Plasmacytoid dendritic
+ITGAE	ITGAE	positive	Plasmacytoid dendritic
+ITGAM	ITGAM	positive	Plasmacytoid dendritic
+ITGAX	ITGAX	positive	Plasmacytoid dendritic
+ITM2C	ITM2C	positive	Plasmacytoid dendritic
+ITPR1	ITPR1	positive	Plasmacytoid dendritic
+ITPR2	ITPR2	positive	Plasmacytoid dendritic
+KANK1	KANK1	positive	Plasmacytoid dendritic
+KIRREL3	KIRREL3	positive	Plasmacytoid dendritic
+KRR1	KRR1	positive	Plasmacytoid dendritic
+KRT5	KRT5	positive	Plasmacytoid dendritic
+LAIR1	LAIR1	positive	Plasmacytoid dendritic
+LAMP5	LAMP5	positive	Plasmacytoid dendritic
+LGMN	LGMN	positive	Plasmacytoid dendritic
+LILRA4	LILRA4	positive	Plasmacytoid dendritic
+LILRB4	LILRB4	positive	Plasmacytoid dendritic
+LIME1	LIME1	positive	Plasmacytoid dendritic
+LMAN1	LMAN1	positive	Plasmacytoid dendritic
+LRP8	LRP8	positive	Plasmacytoid dendritic
+LRRC36	LRRC36	positive	Plasmacytoid dendritic
+LTB	LTB	positive	Plasmacytoid dendritic
+LY9	LY9	positive	Plasmacytoid dendritic
+MAGED1	MAGED1	positive	Plasmacytoid dendritic
+MAN2B1	MAN2B1	positive	Plasmacytoid dendritic
+MAP1A	MAP1A	positive	Plasmacytoid dendritic
+MAP2K6	MAP2K6	positive	Plasmacytoid dendritic
+MAP4K4	MAP4K4	positive	Plasmacytoid dendritic
+MAPKAPK2	MAPKAPK2	positive	Plasmacytoid dendritic
+MCOLN2	MCOLN2	positive	Plasmacytoid dendritic
+MDFIC	MDFIC	positive	Plasmacytoid dendritic
+MDN1	MDN1	positive	Plasmacytoid dendritic
+MEF2D	MEF2D	positive	Plasmacytoid dendritic
+MFSD2A	MFSD2A	positive	Plasmacytoid dendritic
+MGAT4A	MGAT4A	positive	Plasmacytoid dendritic
+MHCClassII	MHCClassII	positive	Plasmacytoid dendritic
+MIF4GD	MIF4GD	positive	Plasmacytoid dendritic
+MILR1	MILR1	positive	Plasmacytoid dendritic
+MRPL36	MRPL36	positive	Plasmacytoid dendritic
+MS4A6A	MS4A6A	positive	Plasmacytoid dendritic
+MYB	MYB	positive	Plasmacytoid dendritic
+MYBL2	MYBL2	positive	Plasmacytoid dendritic
+MYO1E	MYO1E	positive	Plasmacytoid dendritic
+MZB1	MZB1	positive	Plasmacytoid dendritic
+N4BP2	N4BP2	positive	Plasmacytoid dendritic
+N4BP2L1	N4BP2L1	positive	Plasmacytoid dendritic
+NA	NA	positive	Plasmacytoid dendritic
+NAPSA	NAPSA	positive	Plasmacytoid dendritic
+NCF1	NCF1	positive	Plasmacytoid dendritic
+NEK8	NEK8	positive	Plasmacytoid dendritic
+NFATC2IP	NFATC2IP	positive	Plasmacytoid dendritic
+NFX1	NFX1	positive	Plasmacytoid dendritic
+NGLY1	NGLY1	positive	Plasmacytoid dendritic
+NICN1	NICN1	positive	Plasmacytoid dendritic
+NOP56	NOP56	positive	Plasmacytoid dendritic
+NOTCH4	NOTCH4	positive	Plasmacytoid dendritic
+NPC1	NPC1	positive	Plasmacytoid dendritic
+NPC2	NPC2	positive	Plasmacytoid dendritic
+NRP1	NRP1	positive	Plasmacytoid dendritic
+NUCB2	NUCB2	positive	Plasmacytoid dendritic
+OCLN	OCLN	positive	Plasmacytoid dendritic
+OFD1	OFD1	positive	Plasmacytoid dendritic
+OGT	OGT	positive	Plasmacytoid dendritic
+P2RY14	P2RY14	positive	Plasmacytoid dendritic
+P2RY6	P2RY6	positive	Plasmacytoid dendritic
+P4HB	P4HB	positive	Plasmacytoid dendritic
+PACSIN1	PACSIN1	positive	Plasmacytoid dendritic
+PAFAH2	PAFAH2	positive	Plasmacytoid dendritic
+PAIP1	PAIP1	positive	Plasmacytoid dendritic
+PAPLN	PAPLN	positive	Plasmacytoid dendritic
+PARK7	PARK7	positive	Plasmacytoid dendritic
+PARP10	PARP10	positive	Plasmacytoid dendritic
+PCMTD1	PCMTD1	positive	Plasmacytoid dendritic
+PCYOX1	PCYOX1	positive	Plasmacytoid dendritic
+PDCD1LG2	PDCD1LG2	positive	Plasmacytoid dendritic
+PDCD4	PDCD4	positive	Plasmacytoid dendritic
+PDIA4	PDIA4	positive	Plasmacytoid dendritic
+PFKFB2	PFKFB2	positive	Plasmacytoid dendritic
+PFKP	PFKP	positive	Plasmacytoid dendritic
+PHC3	PHC3	positive	Plasmacytoid dendritic
+PHEX	PHEX	positive	Plasmacytoid dendritic
+PHLPP2	PHLPP2	positive	Plasmacytoid dendritic
+PIK3CD	PIK3CD	positive	Plasmacytoid dendritic
+PLA2G16	PLA2G16	positive	Plasmacytoid dendritic
+PLAC8	PLAC8	positive	Plasmacytoid dendritic
+PLD4	PLD4	positive	Plasmacytoid dendritic
+PLP2	PLP2	positive	Plasmacytoid dendritic
+PLXNA4	PLXNA4	positive	Plasmacytoid dendritic
+POLB	POLB	positive	Plasmacytoid dendritic
+PPARA	PPARA	positive	Plasmacytoid dendritic
+PPFIBP1	PPFIBP1	positive	Plasmacytoid dendritic
+PPM1J	PPM1J	positive	Plasmacytoid dendritic
+PPM1K	PPM1K	positive	Plasmacytoid dendritic
+PPP1R14B	PPP1R14B	positive	Plasmacytoid dendritic
+PPP6R1	PPP6R1	positive	Plasmacytoid dendritic
+PTCRA	PTCRA	positive	Plasmacytoid dendritic
+PTK7	PTK7	positive	Plasmacytoid dendritic
+PTPRC	PTPRC	positive	Plasmacytoid dendritic
+PTPRCAP	PTPRCAP	positive	Plasmacytoid dendritic
+PTPRS	PTPRS	positive	Plasmacytoid dendritic
+QDPR	QDPR	positive	Plasmacytoid dendritic
+RABGAP1L	RABGAP1L	positive	Plasmacytoid dendritic
+RASD1	RASD1	positive	Plasmacytoid dendritic
+RCL1	RCL1	positive	Plasmacytoid dendritic
+RNASE6	RNASE6	positive	Plasmacytoid dendritic
+RNASEH2B	RNASEH2B	positive	Plasmacytoid dendritic
+RNASET2	RNASET2	positive	Plasmacytoid dendritic
+RNF5	RNF5	positive	Plasmacytoid dendritic
+RRBP1	RRBP1	positive	Plasmacytoid dendritic
+RREB1	RREB1	positive	Plasmacytoid dendritic
+RUNX2	RUNX2	positive	Plasmacytoid dendritic
+S100PBP	S100PBP	positive	Plasmacytoid dendritic
+SBDS	SBDS	positive	Plasmacytoid dendritic
+SCAMP5	SCAMP5	positive	Plasmacytoid dendritic
+SCARB2	SCARB2	positive	Plasmacytoid dendritic
+SCN9A	SCN9A	positive	Plasmacytoid dendritic
+SEC11C	SEC11C	positive	Plasmacytoid dendritic
+SEC61A1	SEC61A1	positive	Plasmacytoid dendritic
+SEC61B	SEC61B	positive	Plasmacytoid dendritic
+SEC61G	SEC61G	positive	Plasmacytoid dendritic
+SEL1L3	SEL1L3	positive	Plasmacytoid dendritic
+SELL	SELL	positive	Plasmacytoid dendritic
+SERPINF1	SERPINF1	positive	Plasmacytoid dendritic
+SERTAD2	SERTAD2	positive	Plasmacytoid dendritic
+SETBP1	SETBP1	positive	Plasmacytoid dendritic
+SFT2D2	SFT2D2	positive	Plasmacytoid dendritic
+SGSM3	SGSM3	positive	Plasmacytoid dendritic
+SIDT1	SIDT1	positive	Plasmacytoid dendritic
+SIT1	SIT1	positive	Plasmacytoid dendritic
+SIVA1	SIVA1	positive	Plasmacytoid dendritic
+SLA2	SLA2	positive	Plasmacytoid dendritic
+SLC12A2	SLC12A2	positive	Plasmacytoid dendritic
+SLC12A3	SLC12A3	positive	Plasmacytoid dendritic
+SLC15A4	SLC15A4	positive	Plasmacytoid dendritic
+SLC20A1	SLC20A1	positive	Plasmacytoid dendritic
+SLC23A2	SLC23A2	positive	Plasmacytoid dendritic
+SLC2A1	SLC2A1	positive	Plasmacytoid dendritic
+SLC33A1	SLC33A1	positive	Plasmacytoid dendritic
+SLC38A1	SLC38A1	positive	Plasmacytoid dendritic
+SLC38A2	SLC38A2	positive	Plasmacytoid dendritic
+SLC3A2	SLC3A2	positive	Plasmacytoid dendritic
+SLC7A11	SLC7A11	positive	Plasmacytoid dendritic
+SLC7A5	SLC7A5	positive	Plasmacytoid dendritic
+SMC6	SMC6	positive	Plasmacytoid dendritic
+SMPD3	SMPD3	positive	Plasmacytoid dendritic
+SND1	SND1	positive	Plasmacytoid dendritic
+SNRNP25	SNRNP25	positive	Plasmacytoid dendritic
+SNRPN	SNRPN	positive	Plasmacytoid dendritic
+SORL1	SORL1	positive	Plasmacytoid dendritic
+SP4	SP4	positive	Plasmacytoid dendritic
+SPATA5	SPATA5	positive	Plasmacytoid dendritic
+SPCS1	SPCS1	positive	Plasmacytoid dendritic
+SPIB	SPIB	positive	Plasmacytoid dendritic
+SPICE1	SPICE1	positive	Plasmacytoid dendritic
+SPNS3	SPNS3	positive	Plasmacytoid dendritic
+SPON2	SPON2	positive	Plasmacytoid dendritic
+SSR4	SSR4	positive	Plasmacytoid dendritic
+ST3GAL2	ST3GAL2	positive	Plasmacytoid dendritic
+ST3GAL4	ST3GAL4	positive	Plasmacytoid dendritic
+ST6GALNAC4	ST6GALNAC4	positive	Plasmacytoid dendritic
+STAMBPL1	STAMBPL1	positive	Plasmacytoid dendritic
+STMN1	STMN1	positive	Plasmacytoid dendritic
+STRBP	STRBP	positive	Plasmacytoid dendritic
+STT3A	STT3A	positive	Plasmacytoid dendritic
+SULF2	SULF2	positive	Plasmacytoid dendritic
+SUSD1	SUSD1	positive	Plasmacytoid dendritic
+SYS1	SYS1	positive	Plasmacytoid dendritic
+TACC1	TACC1	positive	Plasmacytoid dendritic
+TASP1	TASP1	positive	Plasmacytoid dendritic
+TATDN3	TATDN3	positive	Plasmacytoid dendritic
+TAX1BP3	TAX1BP3	positive	Plasmacytoid dendritic
+TBC1D4	TBC1D4	positive	Plasmacytoid dendritic
+TBCC	TBCC	positive	Plasmacytoid dendritic
+TCF4	TCF4	positive	Plasmacytoid dendritic
+TCL1A	TCL1A	positive	Plasmacytoid dendritic
+TEX2	TEX2	positive	Plasmacytoid dendritic
+TGFBI	TGFBI	positive	Plasmacytoid dendritic
+TGFBR2	TGFBR2	positive	Plasmacytoid dendritic
+TLR7	TLR7	positive	Plasmacytoid dendritic
+TMEM109	TMEM109	positive	Plasmacytoid dendritic
+TMEM19	TMEM19	positive	Plasmacytoid dendritic
+TMEM63A	TMEM63A	positive	Plasmacytoid dendritic
+TMIGD2	TMIGD2	positive	Plasmacytoid dendritic
+TNFAIP3	TNFAIP3	positive	Plasmacytoid dendritic
+TNFRSF21	TNFRSF21	positive	Plasmacytoid dendritic
+TP53I11	TP53I11	positive	Plasmacytoid dendritic
+TP53I13	TP53I13	positive	Plasmacytoid dendritic
+TPM2	TPM2	positive	Plasmacytoid dendritic
+TPST2	TPST2	positive	Plasmacytoid dendritic
+TRAF4	TRAF4	positive	Plasmacytoid dendritic
+TRAM1	TRAM1	positive	Plasmacytoid dendritic
+TRDMT1	TRDMT1	positive	Plasmacytoid dendritic
+TRIM74	TRIM74	positive	Plasmacytoid dendritic
+TRRAP	TRRAP	positive	Plasmacytoid dendritic
+TSPAN13	TSPAN13	positive	Plasmacytoid dendritic
+TSPAN3	TSPAN3	positive	Plasmacytoid dendritic
+TTC24	TTC24	positive	Plasmacytoid dendritic
+TUBB6	TUBB6	positive	Plasmacytoid dendritic
+TULP4	TULP4	positive	Plasmacytoid dendritic
+TXN	TXN	positive	Plasmacytoid dendritic
+TXNDC5	TXNDC5	positive	Plasmacytoid dendritic
+UBA5	UBA5	positive	Plasmacytoid dendritic
+UBE2J1	UBE2J1	positive	Plasmacytoid dendritic
+UGCG	UGCG	positive	Plasmacytoid dendritic
+USP11	USP11	positive	Plasmacytoid dendritic
+USP24	USP24	positive	Plasmacytoid dendritic
+VAMP1	VAMP1	positive	Plasmacytoid dendritic
+VEGFB	VEGFB	positive	Plasmacytoid dendritic
+VIPR2	VIPR2	positive	Plasmacytoid dendritic
+ZBTB33	ZBTB33	positive	Plasmacytoid dendritic
+ZDHHC17	ZDHHC17	positive	Plasmacytoid dendritic
+ZDHHC4	ZDHHC4	positive	Plasmacytoid dendritic
+ZFAT	ZFAT	positive	Plasmacytoid dendritic
+ZFYVE26	ZFYVE26	positive	Plasmacytoid dendritic
+ZNF506	ZNF506	positive	Plasmacytoid dendritic
+ZNF527	ZNF527	positive	Plasmacytoid dendritic
+BSG	BSG	positive	Platelet
+CCL5	CCL5	positive	Platelet
+CCR3	CCR3	positive	Platelet
+CD109	CD109	positive	Platelet
+CD14	CD14	positive	Platelet
+CD151	CD151	positive	Platelet
+CD226	CD226	positive	Platelet
+CD36	CD36	positive	Platelet
+CD40LG	CD40LG	positive	Platelet
+CD46	CD46	positive	Platelet
+CD47	CD47	positive	Platelet
+CD48	CD48	positive	Platelet
+CD63	CD63	positive	Platelet
+CD69	CD69	positive	Platelet
+CD84	CD84	positive	Platelet
+CD9	CD9	positive	Platelet
+CSF3R	CSF3R	positive	Platelet
+FCER1A	FCER1A	positive	Platelet
+FCGR2A	FCGR2A	positive	Platelet
+FCGR2B	FCGR2B	positive	Platelet
+FCGR2C	FCGR2C	positive	Platelet
+GP1BA	GP1BA	positive	Platelet
+ICAM2	ICAM2	positive	Platelet
+ITGA2	ITGA2	positive	Platelet
+ITGA2B	ITGA2B	positive	Platelet
+ITGA6	ITGA6	positive	Platelet
+ITGAV	ITGAV	positive	Platelet
+ITGB1	ITGB1	positive	Platelet
+ITGB3	ITGB3	positive	Platelet
+JAM3	JAM3	positive	Platelet
+LAMP2	LAMP2	positive	Platelet
+LRRC32	LRRC32	positive	Platelet
+NA	NA	positive	Platelet
+PDGFB	PDGFB	positive	Platelet
+PECAM1	PECAM1	positive	Platelet
+SELP	SELP	positive	Platelet
+SPN	SPN	positive	Platelet
+SRC	SRC	positive	Platelet
+TNFSF14	TNFSF14	positive	Platelet
+VEGFA	VEGFA	positive	Platelet
+CD34	CD34	positive	Progenitor-like angiogenesis-promoting
+CD24	CD24	positive	Red blood (erythrocyte)
+GYPA	GYPA	positive	Red blood (erythrocyte)
+NA	NA	positive	Red blood (erythrocyte)
+PTPRC	PTPRC	positive	Red blood (erythrocyte)
+IL7R	IL7R	positive	Regulatory T (Treg)
+ITGA4	ITGA4	positive	Regulatory T (Treg)
+LRRC32	LRRC32	positive	Regulatory T (Treg)
+TNFRSF18	TNFRSF18	positive	Regulatory T (Treg)
+CD4	CD4	positive	Responder T
+IL2RA	IL2RA	positive	Responder T
+LRRC32	LRRC32	positive	Responder T
+CD27	CD27	positive	Switched memory B
+IgDfamily	IgDfamily	positive	Switched memory B
+CD3D	CD3D	positive	T
+CD3E	CD3E	positive	T
+CD3G	CD3G	positive	T
+CD8A	CD8A	positive	T
+NA	NA	positive	T
+UCHL1	UCHL1	positive	T
+GP1BA	GP1BA	positive	T helper
+PECAM1	PECAM1	positive	Thymic emigrant
+PTPRC	PTPRC	positive	Thymic emigrant
+SELL	SELL	positive	Thymic emigrant
+CD24	CD24	positive	Transitional B
+CD38	CD38	positive	Transitional B
+KIT	KIT	positive	Vascular progenitor
+MKI67	MKI67	positive	Vascular progenitor
+KIT	KIT	positive	Vascular stem
+MKI67	MKI67	positive	Vascular stem
+PTPRC	PTPRC	positive	White blood
