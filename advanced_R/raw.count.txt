@@ -1,0 +1,2 @@
+geneID	sample50	sample51	sample52	sample53	sample54	sample55	sample56	sample57	sample58	sample59	sample60	sample61	sample62	sample63	sample64	sample65	sample66	sample67	sample68	sample69	sample70	sample71	sample72	sample73	sample74	sample75	sample76	sample77	sample78	sample79	sample80	sample81	sample82	sample83	sample84	sample85	sample86	sample87	sample88	sample89	sample90	sample91	sample92	sample93	sample94	sample95
+ENSG00000000971	0	0	192	2	75	0	48	684	20	1	77	153	0	1	102	0	0	1	0	0	0	0	0	6	0	26	0	0	1	0	38	3	0	0	0	0	115	0	565	0	352	159	0	125	1	0

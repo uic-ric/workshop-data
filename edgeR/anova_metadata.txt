@@ -1,0 +1,13 @@
+Sample	Condition
+Control.1	Control
+Control.2	Control
+Control.3	Control
+Control.4	Control
+Model1.10	Model1
+Model1.7	Model1
+Model1.8	Model1
+Model1.9	Model1
+Model2.1	Model2
+Model2.2	Model2
+Model2.3	Model2
+Model2.4	Model2

@@ -1,0 +1,13 @@
+ID	Race	Vital.Status
+4	Black	Alive
+5	White	Dead
+6	White	Alive
+1	Asian	Alive
+2	Black	Alive
+3	White	Dead
+7	White	Dead
+8	White	Alive
+9	Black	Alive
+10	Black	Alive
+11	Black	Alive
+12	Asian	Dead

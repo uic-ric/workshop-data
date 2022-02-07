@@ -1,0 +1,3 @@
+Sample	Condition
+Control	Control
+Treat	Treated

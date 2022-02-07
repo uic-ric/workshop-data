@@ -1,0 +1,13 @@
+Sample	Genotype	Gating
+WT_A.1	WT	A
+WT_A.2	WT	A
+WT_B.1	WT	B
+WT_B.2	WT	B
+WT_C.1	WT	C
+WT_C.2	WT	C
+KO_A.1	KO	A
+KO_A.2	KO	A
+KO_B.1	KO	B
+KO_B.2	KO	B
+KO_C.1	KO	C
+KO_C.2	KO	C
