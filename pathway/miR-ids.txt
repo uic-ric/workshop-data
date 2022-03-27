@@ -1,0 +1,10 @@
+hsa-mir-22-3p
+hsa-mir-30c-5p
+hsa-mir-16-5p
+hsa-mir-29c-3p
+hsa-mir-29a-3p
+hsa-mir-21-5p
+hsa-mir-320a
+hsa-mir-30a-5p
+hsa-mir-194-5p
+hsa-mir-24-3p
