@@ -1,0 +1,7 @@
+Name	Condition
+control_S4	C
+control_S5	C
+control_S6	C
+disease_S1	D
+disease_S2	D
+disease_S3	D
