@@ -1,0 +1,33 @@
+Sample	Group
+Sample24_M30_Fec3	Treatment A
+Sample13_M14_Fec3	Control
+Sample22_M26_Fec1	Treatment A
+Sample6_M6_Fec3	Basal
+Sample9_M9_Fec1	Basal
+Sample1_M1_Fec1	Basal
+Sample4_M4_Fec2	Basal
+Sample30_M38	Treatment B
+Sample7_M7_Fec2	Basal
+Sample15_M16_Fec2	Control
+Sample16_M18_Fec3	Control
+Sample8_M8_Fec2	Basal
+Sample12_M13_Fec1	Control
+Sample11_M12_Fec3	Control
+Sample25_M32_Fec2	Treatment B
+Sample17_M19_Fec2	Control
+Sample19_M23_Fec2	Treatment A
+Sample18_M20_Fec3	Control
+Sample2_M2_Fec2	Basal
+Sample26_M33_Fec2	Treatment B
+Sample23_M29_Fec3	Treatment A
+Sample14_M15_Fec1	Control
+Sample3_M3_Fec2	Basal
+Sample32_M28_Fec4	Treatment A
+Sample29_M36_Fec3	Treatment B
+Sample5_M5_Fec1	Basal
+Sample10_M10_Fec2	Basal
+Sample27_M34_Fec3	Treatment B
+Sample28_M35_Fec3	Treatment B
+Sample20_M24_Fec3	Treatment A
+Sample31_M40	Treatment B
+Sample21_M25_Fec2	Treatment A
