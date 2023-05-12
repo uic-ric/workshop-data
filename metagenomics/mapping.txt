@@ -1,0 +1,11 @@
+Sample	Group
+Sample001	Control
+Sample002	Control
+Sample003	Control
+Sample004	Control
+Sample005	Control
+Sample006	Treatment
+Sample007	Treatment
+Sample008	Treatment
+Sample009	Control
+Sample010	Treatment
