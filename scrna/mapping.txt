@@ -1,0 +1,13 @@
+Sample	Group
+Sample_001	A
+Sample_002	B
+Sample_003	D
+Sample_004	C
+Sample_005	C
+Sample_006	C
+Sample_007	B
+Sample_008	A
+Sample_009	A
+Sample_010	D
+Sample_011	D
+Sample_012	B
