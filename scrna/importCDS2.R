@@ -2,7 +2,7 @@ importCDS2 <- function(otherCDS, import_all = FALSE)
 {
   if (class(otherCDS)[1] == "Seurat") {
     requireNamespace("Seurat")
-    data <- otherCDS@assays$RNA@counts
+    data <- GetAssayData(otherCDS,layer="counts")
     if (class(data) == "data.frame") {
       data <- as(as.matrix(data), "sparseMatrix")
     }
@@ -51,6 +51,10 @@ importCDS2 <- function(otherCDS, import_all = FALSE)
     }
     if ("var.genes" %in% slotNames(otherCDS)) {
       var.genes <- setOrderingFilter(monocle_cds, otherCDS@var.genes)
+    }else{
+      features <- otherCDS@assays$RNA@features@.Data
+      top.genes <- rownames(features)[features[,"scale.data"]]
+      var.genes <- setOrderingFilter(monocle_cds, top.genes)
     }
     monocle_cds@auxClusteringData$seurat <- mist_list
   }
