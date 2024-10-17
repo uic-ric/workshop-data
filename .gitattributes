@@ -2,3 +2,4 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
 pathway/handout.html filter=lfs diff=lfs merge=lfs -text
 advanced_R/handout.html filter=lfs diff=lfs merge=lfs -text
+scrna/handout.html filter=lfs diff=lfs merge=lfs -text
