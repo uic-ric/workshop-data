@@ -19,7 +19,6 @@ fastqlist=$folder/* _R1_* .fastq.gz
 for read1 in $fastqlist
 do
 # find names for read2 (skip if single-end) and sample
-30
 read2=$(echo $read1 | sed 's/_R1_/_R2_/g')
 name=$(basename $read1 "_L001_R1_001.fastq.gz")
 echo "Analyzing sample $name" >> $out.log
