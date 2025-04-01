@@ -1,0 +1,36 @@
+#!/bin/sh
+if [ "$1" == "" ] || [ "$2" == "" ] || [ "$3" == "" ] || [ "$4" == "" ] || [ "$5" == ""]; then
+echo "Usage: input_folder STAR_index threads output_prefix GTF_file"
+exit
+fi
+# define variables from inputs
+folder=$1
+index=$2
+threads=$3
+out=$4
+gtf=$5
+# load STAR dependency
+module load STAR
+# load featureCount dependency
+module load cri-tools/featureCounts
+echo "Starting RNA-seq analysis" > $out.log
+# loop over all fastq files in folder
+fastqlist=$folder/* _R1_* .fastq.gz
+for read1 in $fastqlist
+do
+# find names for read2 (skip if single-end) and sample
+30
+read2=$(echo $read1 | sed 's/_R1_/_R2_/g')
+name=$(basename $read1 "_L001_R1_001.fastq.gz")
+echo "Analyzing sample $name" >> $out.log
+# run STAR (if single-end, skip $read2)
+STAR --genomeDir $index --runThreadN $threads --readFilesCommand zcat --readFilesIn
+$read1 $read2 --outFileNamePrefix $out.$name
+--outSAMtype BAM
+featureCounts -T 8 -t exon -g gene_id -s 0 -a $gtf -o $out.$name.counts $out.$name.out.bam
+# reformat our outputs to combine later
+cut -f1 $out.$name.counts > $out.genes.txt
+cut -f2 $out.$name.counts > $out.$name.counts.txt
+done
+# paste files together
+paste $out.genes.txt $out.* .counts.txt > $out.txt
