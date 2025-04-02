@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ "$1" == "" ] || [ "$2" == "" ] || [ "$3" == "" ] || [ "$4" == "" ] || [ "$5" == ""]; then
+if [ "$1" == "" ] || [ "$2" == "" ] || [ "$3" == "" ] || [ "$4" == "" ] || [ "$5" == "" ]; then
 echo "Usage: input_folder STAR_index threads output_prefix GTF_file"
 exit
 fi
@@ -15,7 +15,7 @@ module load STAR
 module load ric-tools/Subread
 echo "Starting RNA-seq analysis" > $out.log
 # loop over all fastq files in folder
-fastqlist=$folder/* _R1_* .fastq.gz
+fastqlist=$folder/*_R1_*.fastq.gz
 for read1 in $fastqlist
 do
 # find names for read2 (skip if single-end) and sample
