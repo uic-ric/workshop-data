@@ -11,7 +11,7 @@ out=$4
 gtf=$5
 # load STAR dependency
 module load STAR
-# load featureCount dependency
+# load featureCounts dependency
 module load ric-tools/Subread
 echo "Starting RNA-seq analysis" > $out.log
 # loop over all fastq files in folder
@@ -32,4 +32,4 @@ cut -f1 $out.$name.counts > $out.genes.txt
 cut -f2 $out.$name.counts > $out.$name.counts.txt
 done
 # paste files together
-paste $out.genes.txt $out.* .counts.txt > $out.txt
+paste $out.genes.txt $out.*.counts.txt > $out.txt
