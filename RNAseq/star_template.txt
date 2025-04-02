@@ -12,7 +12,7 @@ gtf=$5
 # load STAR dependency
 module load STAR
 # load featureCount dependency
-module load cri-tools/featureCounts
+module load ric-tools/Subread
 echo "Starting RNA-seq analysis" > $out.log
 # loop over all fastq files in folder
 fastqlist=$folder/* _R1_* .fastq.gz
