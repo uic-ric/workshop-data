@@ -1,0 +1,9 @@
+Sample	Group
+V035_F031	Smoker
+V039_F093	Non-Smoker
+V040_F198	Smoker
+V041_F043	Non-Smoker
+V043_F047	Non-Smoker
+V044_F037	Smoker
+V045_F120	Non-Somker
+V054_F209	Smoker
