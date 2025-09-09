@@ -5,5 +5,5 @@ V040_F198	Smoker
 V041_F043	Non-Smoker
 V043_F047	Non-Smoker
 V044_F037	Smoker
-V045_F120	Non-Somker
+V045_F120	Non-Smoker
 V054_F209	Smoker
