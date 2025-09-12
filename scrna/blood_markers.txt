@@ -7,9 +7,8 @@ PSAP	Monocytes
 CST3	Monocytes
 LYZ	Monocytes
 GNLY	NK cells
-NKG7	NK cells
+FCGR3A	NK cells
 CD3D	T cells
 CD3E	T cells
 CD3G	T cells
 SELL	T cells
-JUNB	T cells
