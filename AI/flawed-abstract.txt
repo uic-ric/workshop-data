@@ -1,0 +1,8 @@
+Chronic inflammation contributes to the progression of numerous diseases, and
+identifying compounds that suppress inflammatory signaling remains a priority
+for therapeutic development. Here, we treated primary human macrophages (n=3
+donors) with 10 µM Compound X for 24 hours and measured IL-6 and TNF-alpha
+expression by qPCR. Treated samples showed a 3.2-fold reduction in IL-6 and a
+2.1-fold reduction in TNF-alpha expression compared to baseline. These results
+suggest Compound X is a promising anti-inflammatory therapeutic candidate
+warranting further investigation.
