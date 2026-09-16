@@ -50,10 +50,6 @@ head(colnames(brca_cli))
 
 # Count cancer types
 table(brca_cli$CANCER_TYPE_DETAILED)
-# Download mRNA expression as TPM
-all_brca_RNA <- fetch_all_tcgadata(case_list_id = q_cases, 
-                                   gprofile_id = rna_prf, 
-                                   mutations = FALSE)
 
 # --- Normalization and filtering --------------------------------------------
 
@@ -468,23 +464,6 @@ ggroc(xgb_roc) +
 # Ridge regression model for Age
 # -----------------------------------------------------------------------------
 
-# --- Download DNA methylation data (INSTRUCTOR DEMONSTRATION) ---------------
-
-library(TCGAretriever)
-
-# The molecular profiles for the study include a methylation profile
-brca_pro <- get_genetic_profiles(csid = "brca_tcga")
-brca_pro[brca_pro$molecularAlterationType == "METHYLATION", "molecularProfileId"]
-
-# Case list of samples with HM450 methylation data
-brca_cas <- get_case_lists(csid = "brca_tcga")
-brca_cas[grepl("HM450", brca_cas$name), c("sampleListId", "description")]
-
-# Download methylation beta values for all genes (this takes a long time)
-all_brca_meth <- fetch_all_tcgadata(case_list_id = "brca_tcga_methylation_hm450",
-                                    gprofile_id = "brca_tcga_methylation_hm450",
-                                    mutations = FALSE)
-
 # --- Read in the methylation data -------------------------------------------
 
 all_brca_meth <- readRDS(url(
@@ -567,84 +546,6 @@ ggplot(df_pred_ridge, aes(x = Observed, y = Predicted)) +
     y = "Predicted Age")
 
 # --- Going further: probe-level methylation and normal tissue ---------------
-
-# Obtaining and filtering the probe-level data (INSTRUCTOR DEMONSTRATION)
-
-library(data.table)
-library(caret)
-
-# Download the probe-level HM450 matrix for TCGA BRCA from UCSC Xena (~780 MB)
-xena_url <- "https://tcga.xenahubs.net/download/TCGA.BRCA.sampleMap/HumanMethylation450.gz"
-download.file(xena_url, "brca_hm450_probes.tsv.gz")
-
-# Clinical data (the same file used throughout the workshop)
-brca_cli <- readRDS(url("https://wd.cri.uic.edu/machine_learning/brca_clinical.rds"))
-
-# Read only the header to get the sample IDs
-hm450_samples <- colnames(fread("brca_hm450_probes.tsv.gz", nrows = 0))[-1]
-
-# Sample type from the last two characters, patient from the first 12
-tissue <- ifelse(grepl("-01$", hm450_samples), "Tumor",
-          ifelse(grepl("-11$", hm450_samples), "Normal", NA))
-patient <- substr(hm450_samples, 1, 12)
-age <- brca_cli$AGE[match(patient, substr(brca_cli$sampleId, 1, 12))]
-
-# Keep tumor and normal samples from patients with a recorded age
-keep_samples <- !is.na(tissue) & !is.na(age)
-hm450_samples <- hm450_samples[keep_samples]
-sample_table <- data.frame(sampleId = hm450_samples,
-                           patientId = patient[keep_samples],
-                           tissue = tissue[keep_samples],
-                           AGE = age[keep_samples])
-table(sample_table$tissue)
-
-# Read the matrix for those samples only: one row per probe, one column per sample
-hm450 <- fread("brca_hm450_probes.tsv.gz", select = c("sample", hm450_samples))
-beta <- as.matrix(hm450[, -1])
-rownames(beta) <- hm450$sample
-rm(hm450)
-dim(beta)
-keep_probes <- rowSums(is.na(beta)) == 0 & grepl("^cg", rownames(beta))
-table(keep_probes)
-beta <- beta[keep_probes, ]
-# 1. Top 10,000 variable probes, all samples
-probe_vars <- apply(beta, 1, var)
-top_var_probes <- names(sort(probe_vars, decreasing = TRUE))[1:10000]
-
-# 2. Top 2,000 age-correlated probes in the tumor training split only
-is_tumor <- sample_table$tissue == "Tumor"
-tumor_age <- sample_table$AGE[is_tumor]
-set.seed(123)
-tumor_idx <- createDataPartition(tumor_age, p = 0.7, list = FALSE)
-tumor_train_beta <- beta[, is_tumor][, tumor_idx]
-probe_age_cor <- cor(t(tumor_train_beta), tumor_age[tumor_idx])[, 1]
-top_cor_probes <- names(sort(abs(probe_age_cor), decreasing = TRUE))[1:2000]
-
-# 3. Horvath 2013 clock probes and coefficients (Genome Biology 14:R115, Additional file 3)
-horvath_url <- paste0("https://static-content.springer.com/esm/",
-  "art%3A10.1186%2Fgb-2013-14-10-r115/MediaObjects/13059_2013_3156_MOESM3_ESM.csv")
-horvath <- read.csv(horvath_url, skip = 2)
-horvath_intercept <- horvath$CoefficientTraining[horvath$CpGmarker == "(Intercept)"]
-horvath <- horvath[grepl("^cg", horvath$CpGmarker), c("CpGmarker", "CoefficientTraining")]
-names(horvath) <- c("probe", "coefficient")
-# 47 of the 353 clock probes have missing values in this data set and were removed above
-horvath <- horvath[horvath$probe %in% rownames(beta), ]
-nrow(horvath)
-
-# Combine the three sets
-selected_probes <- unique(c(top_var_probes, top_cor_probes, horvath$probe))
-length(selected_probes)
-probe_table <- data.frame(probe = selected_probes,
-                          top_variable = selected_probes %in% top_var_probes,
-                          tumor_age_correlated = selected_probes %in% top_cor_probes,
-                          horvath_clock = selected_probes %in% horvath$probe)
-meth_probes <- list(
-  beta = beta[selected_probes, ],
-  samples = sample_table,
-  probes = probe_table,
-  horvath = list(intercept = horvath_intercept, coefficients = horvath)
-)
-saveRDS(meth_probes, "brca_methylation_hm450_probes.rds")
 
 # Read in the filtered probe-level data
 
