@@ -7,7 +7,7 @@
 # =============================================================================
 
 # =============================================================================
-# MORNING
+# DAY 1
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -258,7 +258,7 @@ ggroc(lr_roc) +
     subtitle=paste0("AUC = ", round(lr_auc, 3)))
 
 # =============================================================================
-# AFTERNOON
+# DAY 2
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -644,12 +644,22 @@ horvath_age <- ifelse(clock_score <= 0, 21 * exp(clock_score) - 1, 21 * clock_sc
 df_clock <- data.frame(Observed = probe_meta$AGE,
                        DNAm_Age = as.numeric(horvath_age),
                        Tissue = probe_meta$tissue)
-# Correlation with age in each tissue
-by(df_clock, df_clock$Tissue, function(d) round(cor(d$Observed, d$DNAm_Age), 3))
+clock_metrics <- sapply(c("Tumor", "Normal"), function(tt) {
+  d <- df_clock[df_clock$Tissue == tt, ]
+  c(R2 = cor(d$Observed, d$DNAm_Age)^2,
+    RMSE = sqrt(mean((d$DNAm_Age - d$Observed)^2)))
+})
+round(clock_metrics, 3)
+clock_labels <- paste0(colnames(clock_metrics),
+                       ": R2 = ", round(clock_metrics["R2", ], 3),
+                       ", RMSE = ", round(clock_metrics["RMSE", ], 2))
+names(clock_labels) <- colnames(clock_metrics)
+df_clock$Panel <- factor(clock_labels[df_clock$Tissue], levels = clock_labels)
+
 ggplot(df_clock, aes(x = Observed, y = DNAm_Age)) +
   geom_point(alpha = 0.5) +
   geom_abline(intercept=0, slope=1, linetype="dashed") +
-  facet_wrap(~ Tissue) +
+  facet_wrap(~ Panel) +
   labs(title = "Horvath Epigenetic Clock: Tumor vs Normal Tissue",
     x = "Observed Age",
     y = "DNA Methylation Age")
@@ -888,70 +898,97 @@ lr_model2_cm_test
 # Random Forest regression (take home)
 # -----------------------------------------------------------------------------
 
-library(glmnet)
 library(caret)
 library(ggplot2)
-# read in data
-all_brca_meth <- readRDS(url(
-  "https://wd.cri.uic.edu/machine_learning/brca_methylation_hm450.rds"))
-brca_cli <- readRDS(url("https://wd.cri.uic.edu/machine_learning/brca_clinical.rds"))
-rownames(all_brca_meth) <- all_brca_meth$hugoGeneSymbol
-all_brca_meth <- as.matrix(all_brca_meth[,-1:-3])
-# remove genes with missing values and convert to M-values
-all_brca_meth <- all_brca_meth[rowSums(is.na(all_brca_meth)) == 0,]
-all_brca_meth.M <- log2(all_brca_meth / (1 - all_brca_meth))
-meth.data <- t(all_brca_meth.M)
-colnames(meth.data) <- make.names(colnames(meth.data))
-# match age by sample ID and remove samples with missing age
-meth_age <- brca_cli$AGE[match(rownames(meth.data), brca_cli$sampleId)]
-keep <- !is.na(meth_age)
-meth_age <- meth_age[keep]
-meth_age.data <- meth.data[keep, ]
-# top variable genes
-meth.gene_vars <- apply(meth_age.data, 2, var)
-meth.top_var_genes <- names(sort(meth.gene_vars, decreasing = TRUE))[1:5000]
-meth.df.var_filt <- meth_age.data[, meth.top_var_genes]
-# make training and test sets
+meth_probes <- readRDS(url(
+  "https://wd.cri.uic.edu/machine_learning/brca_methylation_hm450_probes.rds"))
+probe.data <- t(meth_probes$beta)
+probe_meta <- meth_probes$samples
+dim(probe.data)
+table(probe_meta$tissue)
+
+# --- Random forest in tumor samples -----------------------------------------
+
+is_tumor <- probe_meta$tissue == "Tumor"
+tumor.data <- probe.data[is_tumor, ]
+tumor_age <- probe_meta$AGE[is_tumor]
+
 set.seed(123)
-age_idx  <- createDataPartition(meth_age, p = 0.7, list = F)
-age_x_train  <- meth.df.var_filt[age_idx, ]
-age_y_train <- meth_age[age_idx]
-age_x_test   <- meth.df.var_filt[-age_idx, ]
-age_y_test <- meth_age[-age_idx]
-# model training
+tumor_idx <- createDataPartition(tumor_age, p = 0.7, list = F)
+tumor_x_train <- tumor.data[tumor_idx, ]
+tumor_y_train <- tumor_age[tumor_idx]
+tumor_x_test <- tumor.data[-tumor_idx, ]
+tumor_y_test <- tumor_age[-tumor_idx]
 rf_reg_ctrl <- trainControl(
   method = "cv",
   number = 5,
   savePredictions = "final"
 )
 set.seed(123)
-rf_reg_model <- train(
-  age_y_train ~ .,
-  data = data.frame(age_y_train, age_x_train),
+rf_tumor_model <- train(
+  x = tumor_x_train,
+  y = tumor_y_train,
   method = "rf",
-  tuneGrid = expand.grid(mtry=c(100, 500)), # with 5000 genes, try larger mtry values
+  ntree = 300,
+  tuneGrid = expand.grid(mtry = c(100, 1000)),
   trControl = rf_reg_ctrl
 )
-rf_reg_model
-# model evaluation
-preds_rf <- predict(rf_reg_model, newdata = age_x_test)
-# Performance (R², RMSE)
-r2_rf <- cor(preds_rf, age_y_test)^2
-r2_rf
-rmse_rf <- sqrt(mean((preds_rf - age_y_test)^2))
-rmse_rf
-# Make a plot of regression
-df_pred_rf <- data.frame(
-  Observed = age_y_test,
-  Predicted = as.numeric(preds_rf)
+rf_tumor_model
+preds_rf_tumor <- predict(rf_tumor_model, newdata = tumor_x_test)
+r2_rf_tumor <- cor(preds_rf_tumor, tumor_y_test)^2
+r2_rf_tumor
+rmse_rf_tumor <- sqrt(mean((preds_rf_tumor - tumor_y_test)^2))
+rmse_rf_tumor
+
+# --- Random forest in adjacent normal samples -------------------------------
+
+is_normal <- probe_meta$tissue == "Normal"
+normal.data <- probe.data[is_normal, ]
+normal_age <- probe_meta$AGE[is_normal]
+
+set.seed(123)
+normal_idx <- createDataPartition(normal_age, p = 0.7, list = F)
+normal_x_train <- normal.data[normal_idx, ]
+normal_y_train <- normal_age[normal_idx]
+normal_x_test <- normal.data[-normal_idx, ]
+normal_y_test <- normal_age[-normal_idx]
+
+set.seed(123)
+rf_normal_model <- train(
+  x = normal_x_train,
+  y = normal_y_train,
+  method = "rf",
+  ntree = 300,
+  tuneGrid = expand.grid(mtry = c(100, 1000)),
+  trControl = rf_reg_ctrl
 )
-metrics_rf <- paste0("R2 = ", round(r2_rf, 3),
-                       " RMSE = ", round(rmse_rf, 2))
+rf_normal_model
+
+preds_rf_normal <- predict(rf_normal_model, newdata = normal_x_test)
+r2_rf_normal <- cor(preds_rf_normal, normal_y_test)^2
+r2_rf_normal
+rmse_rf_normal <- sqrt(mean((preds_rf_normal - normal_y_test)^2))
+rmse_rf_normal
+
+# --- Compare the two tissues ------------------------------------------------
+
+metrics_rf_tumor <- paste0("Tumor: R2 = ", round(r2_rf_tumor, 3),
+                           ", RMSE = ", round(rmse_rf_tumor, 2))
+metrics_rf_normal <- paste0("Normal: R2 = ", round(r2_rf_normal, 3),
+                            ", RMSE = ", round(rmse_rf_normal, 2))
+df_pred_rf <- rbind(
+  data.frame(Observed = tumor_y_test, Predicted = as.numeric(preds_rf_tumor),
+             Tissue = metrics_rf_tumor),
+  data.frame(Observed = normal_y_test, Predicted = as.numeric(preds_rf_normal),
+             Tissue = metrics_rf_normal)
+)
+df_pred_rf$Tissue <- factor(df_pred_rf$Tissue,
+                            levels = c(metrics_rf_tumor, metrics_rf_normal))
 ggplot(df_pred_rf, aes(x = Observed, y = Predicted)) +
-  geom_point() +
+  geom_point(alpha = 0.6) +
   geom_abline(intercept=0, slope=1, linetype="dashed") +
-  labs(title = "Random Forest Regression: Predicted vs Observed Age",
-    subtitle = metrics_rf,
+  facet_wrap(~ Tissue) +
+  labs(title = "Random Forest Regression on Probe-level Methylation: Tumor vs Normal",
     x = "Observed Age",
     y = "Predicted Age")
 
