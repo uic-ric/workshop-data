@@ -461,6 +461,120 @@ ggroc(xgb_roc) +
   geom_abline(intercept=1, slope=1, linetype="dashed")
 
 # -----------------------------------------------------------------------------
+# Feature importance
+# -----------------------------------------------------------------------------
+
+library(caret)
+library(ggplot2)
+library(pROC)
+load(url("https://wd.cri.uic.edu/machine_learning/MLobjects.RData"))
+
+# --- Model-specific importance ----------------------------------------------
+
+library(caret)
+library(ggplot2)
+imp_lr  <- varImp(lr_model)$importance
+imp_rf  <- varImp(rf_model)$importance
+imp_xgb <- varImp(xgb_model)$importance
+head(imp_lr)
+head(imp_rf)
+head(imp_xgb)
+imp_all <- rbind(
+  data.frame(Gene = rownames(imp_lr), Importance = imp_lr$Overall,
+             Model = "Logistic regression"),
+  data.frame(Gene = rownames(imp_rf), Importance = imp_rf$Overall,
+             Model = "Random forest"),
+  data.frame(Gene = rownames(imp_xgb), Importance = imp_xgb$Overall,
+             Model = "XGBoost")
+)
+# Order the genes by their mean importance across the three models
+gene_order <- names(sort(tapply(imp_all$Importance, imp_all$Gene, mean)))
+imp_all$Gene <- factor(imp_all$Gene, levels = gene_order)
+
+ggplot(imp_all, aes(x = Gene, y = Importance)) +
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~ Model) +
+  labs(title = "Model-specific feature importance",
+       y = "Importance (scaled to 100)", x = NULL)
+
+# --- Permutation importance -------------------------------------------------
+
+library(pROC)
+perm_importance <- function(model, x, y, n_rep = 10) {
+  # AUC with the real data
+  base_auc <- as.numeric(auc(roc(y, predict(model, x, type = "prob")$Lobular,
+                                 quiet = TRUE)))
+  # For each gene, shuffle it and measure the drop in AUC
+  sapply(colnames(x), function(g) {
+    drops <- replicate(n_rep, {
+      x_perm <- x
+      x_perm[[g]] <- sample(x_perm[[g]])
+      perm_auc <- as.numeric(auc(roc(y, predict(model, x_perm, type = "prob")$Lobular,
+                                     quiet = TRUE)))
+      base_auc - perm_auc
+    })
+    mean(drops)
+  })
+}
+
+set.seed(123)
+perm_lr  <- perm_importance(lr_model,  Xte, y_test)
+perm_svm <- perm_importance(svm_model, Xte, y_test)
+perm_rf  <- perm_importance(rf_model,  Xte, y_test)
+perm_xgb <- perm_importance(xgb_model, Xte, y_test)
+round(sort(perm_rf, decreasing = TRUE), 3)
+perm_all <- rbind(
+  data.frame(Gene = names(perm_lr),  AUC_drop = perm_lr,  Model = "Logistic regression"),
+  data.frame(Gene = names(perm_svm), AUC_drop = perm_svm, Model = "SVM"),
+  data.frame(Gene = names(perm_rf),  AUC_drop = perm_rf,  Model = "Random forest"),
+  data.frame(Gene = names(perm_xgb), AUC_drop = perm_xgb, Model = "XGBoost")
+)
+perm_all$Gene <- factor(perm_all$Gene, levels = gene_order)
+
+ggplot(perm_all, aes(x = Gene, y = AUC_drop)) +
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~ Model, nrow = 1) +
+  labs(title = "Permutation importance on the test set",
+       y = "Drop in AUC when the gene is shuffled", x = NULL)
+
+# --- Importance as feature selection ----------------------------------------
+
+set.seed(123)
+rf_100 <- train(
+  x = df_ttest_filtered,
+  y = y_train,
+  method = "rf",
+  trControl = rf_ctrl,
+  metric = "ROC",
+  tuneGrid = expand.grid(mtry = 10)
+)
+imp_100 <- varImp(rf_100)$importance
+imp_100 <- imp_100[order(-imp_100$Overall), , drop = FALSE]
+head(imp_100, 10)
+rf_top10 <- rownames(imp_100)[1:10]
+
+# How many of the random forest's top 10 did RFE also choose?
+intersect(rf_top10, best_rfe_feats)
+setdiff(rf_top10, best_rfe_feats)
+set.seed(123)
+lr_model_rf10 <- train(
+  x = x_train[, rf_top10],
+  y = y_train,
+  method = "glm",
+  family = "binomial",
+  trControl = lr_ctrl,
+  metric = "ROC"
+)
+prob_rf10 <- predict(lr_model_rf10, newdata = x_test[, rf_top10], type = "prob")$Lobular
+auc_rf10 <- auc(roc(response = y_test, predictor = prob_rf10, quiet = TRUE))
+
+# RFE-selected genes (from Day 1) versus random forest-selected genes
+data.frame(Selection = c("RFE + logistic regression", "Random forest importance"),
+           Test_AUC = round(c(as.numeric(lr_auc), as.numeric(auc_rf10)), 3))
+
+# -----------------------------------------------------------------------------
 # Ridge regression model for Age
 # -----------------------------------------------------------------------------
 
